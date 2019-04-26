@@ -1,0 +1,1377 @@
+{
+    "schema_version": 2,
+    "oldId": "-LCJb_15NDyfDjYMiWj6",
+    "name": "Marty",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/53918522/OSvxTF8hpYnjpz5bGhpKSA/med.png?1526316449",
+    "bio": "",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":2275,\"top\":2205,\"width\":70,\"height\":70,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/53918522/OSvxTF8hpYnjpz5bGhpKSA/med.png?1526316449\",\"page_id\":\"-LCFy_tW_Wyn2pCNeC8V\",\"layer\":\"objects\",\"name\":\"Marty\",\"controlledby\":\"-LCBr_up4O2OKtaH1UeF\",\"represents\":\"-LCJb_15NDyfDjYMiWj6\",\"bar1_value\":24,\"bar1_max\":15,\"bar1_link\":\"-LCUUpn-XLq0-NCFqi4a\",\"bar2_value\":13,\"bar2_link\":\"-LCUVzxbNyAsrjUkCwvv\",\"bar3_value\":13,\"bar3_link\":\"-LCUUPlwSZpsbjIPmb97\",\"showname\":true,\"showplayers_name\":true,\"showplayers_bar1\":true,\"light_radius\":\"1\",\"light_hassight\":true,\"lastmove\":\"1645,1715\"}",
+    "tags": "[]",
+    "controlledby": "-LCBr_up4O2OKtaH1UeF",
+    "inplayerjournals": "-LCBr_up4O2OKtaH1UeF",
+    "attribs": [
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-LCJb_2gd7KYnb1j6jnE"
+        },
+        {
+            "name": "init_tiebreaker",
+            "current": "@{dexterity}/100",
+            "max": "",
+            "id": "-LCJb_2hlE3tOQdvU2PA"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LCJb_2iq0oanbk4nlma"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LCJb_2j3CNI1t4noSz0"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LCJb_2kx-xFoNtgcWyo"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LCJb_2l7v02uS8hWeu7"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-LCJb_2l7v02uS8hWeu8"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-LCJb_2l7v02uS8hWeu9"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 3.16,
+            "max": "",
+            "id": "-LCJb_2mqGy140T2u162"
+        },
+        {
+            "name": "npcspell_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCJb_2mqGy140T2u163"
+        },
+        {
+            "name": "missing_info",
+            "current": 0,
+            "max": "",
+            "id": "-LCJb_2nSOYcXpCbkRyC"
+        },
+        {
+            "name": "tab",
+            "current": "core",
+            "max": "",
+            "id": "-LCJb_2psW0N2YkHGDay"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LCJb_2qHcaVoBB5e_Kk"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LCJb_2qHcaVoBB5e_Kl"
+        },
+        {
+            "name": "custom_class",
+            "current": "1",
+            "max": "",
+            "id": "-LCUUPhnGZtl6MqVDmv4"
+        },
+        {
+            "name": "hitdietype",
+            "current": "4",
+            "max": "",
+            "id": "-LCUUPjmDQmDyultNlgq"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "0*",
+            "max": "",
+            "id": "-LCUUPjpMZgKGqhEvmSh"
+        },
+        {
+            "name": "strength_save_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPjrIiwO0cDjvcwL"
+        },
+        {
+            "name": "dexterity_save_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPjuDlM4_WGVbFYP"
+        },
+        {
+            "name": "constitution_save_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPjw2MqCDb5Jn59f"
+        },
+        {
+            "name": "intelligence_save_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPjy-x8zcphVE4qS"
+        },
+        {
+            "name": "wisdom_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCUUPk-fMnWYuxG-MZp"
+        },
+        {
+            "name": "charisma_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCUUPk1rSgtRYTpVTuE"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LCUUPk38DZYPzoCh0pU"
+        },
+        {
+            "name": "level",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPk5rLsJTf5IiIDz"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPk7EQmUXoCJS3eW"
+        },
+        {
+            "name": "hit_dice",
+            "current": "",
+            "max": 1,
+            "id": "-LCUUPk9zSoz1oXESJp7"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkHZP9PGn7LYUQV"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkJ67E73xN9697D"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkL1MgybUrcbtJD"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkNwg9_dkoBEhx6"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkOM2-xVpkK79oP"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkQJEayNsdWCUgk"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkRmOIdBUuO0H-i"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkTt8LxPp4A-0TF"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPkVfEm1NdjLCXR6"
+        },
+        {
+            "name": "pb",
+            "current": "2",
+            "max": "",
+            "id": "-LCUUPkXO7itgAweUV-P"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPkZgYZOCin6WFho"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LCUUPk_AG91y4aXVFfF"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPkh54V_FQJqoAE0"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUPkj-qTmtgXEJm1t"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LCUUPknfoD7BlFdKtVV"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LCUUPkpY054ZzefjTuG"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPkzo1n3cY4GwpLy"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LCUUPl15JTws8p7rudo"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LCUUPl2CikDzxz2L2qr"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPl4IrORTnb6wEEg"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LCUUPl60Ul-4nSF7zgR"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LCUUPl83VjH73Q1M3jM"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCUUPl9Ekoa4_Vnii1W"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlD6o3nmSKRzLy6"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LCUUPlFYoqYNLbVxFum"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LCUUPlHC-A1xY1doItK"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LCUUPlIOQsoaZ5JOuHO"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlL86cqBGlbmt1w"
+        },
+        {
+            "name": "history_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlMs0S-bA4-AfX7"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlOSEsgavpPcOgO"
+        },
+        {
+            "name": "nature_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlQXa9L_dyTOs5Z"
+        },
+        {
+            "name": "religion_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlSFpk6jhKgMczC"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPlSFpk6jhKgMczD"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPlUyY2HEqD6J8df"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPlVetZiVZJY4jI7"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LCUUPlXypXMFci7IzTC"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LCUUPlYJOIuciUma_SD"
+        },
+        {
+            "name": "deception_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPl_SObA0Nq6DlYI"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPlaay6zND0Wu3wc"
+        },
+        {
+            "name": "performance_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPld4w5EfmI0VMvO"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LCUUPleSn6GLV8dNY_Z"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": "13",
+            "max": "",
+            "id": "-LCUUPlwSZpsbjIPmb97"
+        },
+        {
+            "name": "cust_classname",
+            "current": "Bear Spirit Guide",
+            "max": "",
+            "id": "-LCUUR3RqrzHo1CsSgHn"
+        },
+        {
+            "name": "cust_charisma_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCUUe6Yt7rxjb8f977x"
+        },
+        {
+            "name": "cust_wisdom_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCUUeGAwiZjsmaVhvg-"
+        },
+        {
+            "name": "hp",
+            "current": "21",
+            "max": "21",
+            "id": "-LCUUpn-XLq0-NCFqi4a"
+        },
+        {
+            "name": "repeating_traits_-LCUUut23EjASJHkJpO-_name",
+            "current": "Boon of Bolstering",
+            "max": "",
+            "id": "-LCUUvrDLM3NfR5rP4Vt"
+        },
+        {
+            "name": "repeating_traits_-LCUUut23EjASJHkJpO-_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUUxPPUlCutOexCAdl"
+        },
+        {
+            "name": "repeating_traits_-LCUUut23EjASJHkJpO-_description",
+            "current": "The spirit animal can grant the Help action from 15 feet away. ",
+            "max": "",
+            "id": "-LCUUz00fdHwjxPXGwjR"
+        },
+        {
+            "name": "repeating_traits_-LCUUut23EjASJHkJpO-_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUUz14TiPkEAiWVvRS"
+        },
+        {
+            "name": "repeating_traits_-LCUUzI1KDmGQ7sj-yQb_name",
+            "current": "Boon of Binding",
+            "max": "",
+            "id": "-LCUV1DkPAplRFRY_jkY"
+        },
+        {
+            "name": "repeating_traits_-LCUUzI1KDmGQ7sj-yQb_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUV2C7AVJt4d_kajh0"
+        },
+        {
+            "name": "repeating_traits_-LCUUzI1KDmGQ7sj-yQb_description",
+            "current": "The shaman can always perceive through the spirit animals senses if they are on the same plane, regardless of distance. ",
+            "max": "",
+            "id": "-LCUV2xKauXm6NShxDBP"
+        },
+        {
+            "name": "repeating_traits_-LCUUzI1KDmGQ7sj-yQb_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUV2yJfYkpPNNcjtpY"
+        },
+        {
+            "name": "repeating_traits_-LCUV3CCsETa1q2nNi-8_name",
+            "current": "Boon of Direction",
+            "max": "",
+            "id": "-LCUV6N-sMsi8yNbOVjE"
+        },
+        {
+            "name": "repeating_traits_-LCUV3CCsETa1q2nNi-8_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUV9asI3gHL9Jt7zZO"
+        },
+        {
+            "name": "repeating_traits_-LCUV3CCsETa1q2nNi-8_description",
+            "current": "The spirit animal can use its action to target an ally within 15 feet. The target can immediately use its reaction to move 15 feet. ",
+            "max": "",
+            "id": "-LCUVA6ff0K10dsJoLmX"
+        },
+        {
+            "name": "repeating_traits_-LCUV3CCsETa1q2nNi-8_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUVA7puqP0lFl3Gr4Y"
+        },
+        {
+            "name": "repeating_traits_-LCUV3CCsETa1q2nNi-8_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUVAV2y__mAaH6xz6K"
+        },
+        {
+            "name": "repeating_traits_-LCUUzI1KDmGQ7sj-yQb_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUVAjA9K7zEcYu1jyF"
+        },
+        {
+            "name": "repeating_traits_-LCUUut23EjASJHkJpO-_display_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUVApYVXB0Q8kFByje"
+        },
+        {
+            "name": "repeating_traits_-LCUVB2XbgKBBy2qBtYu_name",
+            "current": "Boon of Endurance",
+            "max": "",
+            "id": "-LCUVE9rKBBaLlEiWQAt"
+        },
+        {
+            "name": "repeating_traits_-LCUVB2XbgKBBy2qBtYu_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUVFAmXD12qEJCn94k"
+        },
+        {
+            "name": "repeating_traits_-LCUVB2XbgKBBy2qBtYu_description",
+            "current": "The spirit animal gains a bonus +2 to their AC and proficiency in one saving throw of your choice. ",
+            "max": "",
+            "id": "-LCUVF_u7q9sU27OHF2H"
+        },
+        {
+            "name": "repeating_traits_-LCUVB2XbgKBBy2qBtYu_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUVFb29wtJfsfzsldr"
+        },
+        {
+            "name": "repeating_traits_-LCUVB2XbgKBBy2qBtYu_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUVFofUIDR7EBTM5qO"
+        },
+        {
+            "name": "repeating_traits_-LCUVFz9r1cxzfad0W27_name",
+            "current": "Boon of Elements",
+            "max": "",
+            "id": "-LCUVIcFqJQ_q3XCh4dR"
+        },
+        {
+            "name": "repeating_traits_-LCUVFz9r1cxzfad0W27_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUVKP-PAVrLoA5KZDJ"
+        },
+        {
+            "name": "repeating_traits_-LCUVFz9r1cxzfad0W27_description",
+            "current": "If a spell that would hit a creature within 5 feet of the spirit animal would deal acid, cold, fire, lightning, poison, or thunder damage, the spirit animal may use its reaction to change the type of damage to another type from that list. ",
+            "max": "",
+            "id": "-LCUVLlp72Pcr3b0sVzs"
+        },
+        {
+            "name": "repeating_traits_-LCUVFz9r1cxzfad0W27_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUVLmxM7lnuJn4lrs3"
+        },
+        {
+            "name": "repeating_traits_-LCUVFz9r1cxzfad0W27_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUVMPvwa9O1GTOfQZy"
+        },
+        {
+            "name": "repeating_traits_-LCUVOzFcM1TN3mIzVGs_name",
+            "current": "Boon of Fury",
+            "max": "",
+            "id": "-LCUVPnlEh7otcxwsjdo"
+        },
+        {
+            "name": "repeating_traits_-LCUVOzFcM1TN3mIzVGs_description",
+            "current": "While within 5 feet of the spirit animal, the shaman can use their Wisdom modifier for calculating to hit and damage bonuses with melee weapons. ",
+            "max": "",
+            "id": "-LCUVQSPu1rZMRxA-Mjl"
+        },
+        {
+            "name": "repeating_traits_-LCUVOzFcM1TN3mIzVGs_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUVSbUwbfA1S9h1g6E"
+        },
+        {
+            "name": "repeating_traits_-LCUVOzFcM1TN3mIzVGs_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUVSbb5aj2eo6VBEmh"
+        },
+        {
+            "name": "repeating_traits_-LCUVOzFcM1TN3mIzVGs_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUVTLecyTHpyOZGnLH"
+        },
+        {
+            "name": "ac",
+            "current": 13,
+            "max": "",
+            "id": "-LCUVzxbNyAsrjUkCwvv"
+        },
+        {
+            "name": "speed",
+            "current": "30",
+            "max": "",
+            "id": "-LCUW0laYWhK5xEUfBlu"
+        },
+        {
+            "name": "strength_base",
+            "current": "3",
+            "max": "",
+            "id": "-LCUW55MxRP8nX3C65Ew"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW5DnqcVw9jxzmKTQ"
+        },
+        {
+            "name": "strength",
+            "current": 3,
+            "max": "",
+            "id": "-LCUW5Ds2LKdUfnwA7RA"
+        },
+        {
+            "name": "strength_mod",
+            "current": -4,
+            "max": "",
+            "id": "-LCUW5bW5cSo-6cobYOw"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LCUW5bYWOaD0wJM3ysU"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW5bgk4jqjP9yfXq6"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LCUW5bjImlwsd7ibYi_"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "16",
+            "max": "",
+            "id": "-LCUW8lreU46RphmM2hf"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW8styXxm4zxquc9k"
+        },
+        {
+            "name": "dexterity",
+            "current": 16,
+            "max": "",
+            "id": "-LCUW8swnUmUnjbd3m8Y"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 3,
+            "max": "",
+            "id": "-LCUW9FlcaUVURrFEIyc"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW9FohF1KJ6Wrgj5E"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LCUW9I9H_-O7vz2xpzH"
+        },
+        {
+            "name": "armorwarning",
+            "current": "0",
+            "max": "",
+            "id": "-LCUW9IBOgshcc4hu42v"
+        },
+        {
+            "name": "constitution_base",
+            "current": "8",
+            "max": "",
+            "id": "-LCUW9bUGWnJFNDcqIZQ"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW9dOx3Qi2gadj3dh"
+        },
+        {
+            "name": "constitution",
+            "current": 8,
+            "max": "",
+            "id": "-LCUW9dUOATIcAhMQasj"
+        },
+        {
+            "name": "constitution_mod",
+            "current": -1,
+            "max": "",
+            "id": "-LCUW9fP9hryxolvfNXr"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LCUW9fSGM7rX42RoaWp"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "2",
+            "max": "",
+            "id": "-LCUW9mZxTES8j4V3PVZ"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUW9oSpTnyw-mZjNl1"
+        },
+        {
+            "name": "intelligence",
+            "current": 2,
+            "max": "",
+            "id": "-LCUW9oYrU9yvwLKgyup"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": -4,
+            "max": "",
+            "id": "-LCUWA7A953xJA3Ecovu"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LCUWA7FULUulji8x4oF"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "12",
+            "max": "",
+            "id": "-LCUWCdHlbBkW7I26UmT"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUWCowMF6e2PQSLP5m"
+        },
+        {
+            "name": "wisdom",
+            "current": 12,
+            "max": "",
+            "id": "-LCUWCoyrJF-iTs96TTO"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LCUWDBGPkUbYN_TmzZ2"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCUWDBI-XzDSEQpfVDL"
+        },
+        {
+            "name": "charisma_base",
+            "current": "3",
+            "max": "",
+            "id": "-LCUWDv3De35v2G-TC0c"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCUWDwwmWZKWOC0gAjD"
+        },
+        {
+            "name": "charisma",
+            "current": 3,
+            "max": "",
+            "id": "-LCUWDx-dJYQLiMFCsqz"
+        },
+        {
+            "name": "charisma_mod",
+            "current": -4,
+            "max": "",
+            "id": "-LCUWDz0Puux4rqzKxz-"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LCUWDz4l6o21QVzNMpG"
+        },
+        {
+            "name": "stealth_prof",
+            "current": "(@{pb}*@{stealth_type})",
+            "max": "",
+            "id": "-LCUWLXcUwYDR89vJStH"
+        },
+        {
+            "name": "perception_prof",
+            "current": "(@{pb}*@{perception_type})",
+            "max": "",
+            "id": "-LCUWNEpwH0mQE21IMX4"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkname",
+            "current": "Bite",
+            "max": "",
+            "id": "-LCUWR-72elX6YV35rG1"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1 + -4[STR]]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCUWRCSevJLfKYcUoP_"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1 + -4[STR]]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCUWRCW1F2TTU59Iewl"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkbonus",
+            "current": "+7",
+            "max": "",
+            "id": "-LCUWRCYBBT8quS4nu3m"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkdmgtype",
+            "current": "1-4  ",
+            "max": "",
+            "id": "-LCUWRCa4JnAaRJvQq_I"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[MOD] + 2[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[MOD] + 2[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LCUWRCeh5QQnHCyLH50"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkattr_base",
+            "current": "0",
+            "max": "",
+            "id": "-LCUWSmUEBQMikr0wCpn"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkmod",
+            "current": "5",
+            "max": "",
+            "id": "-LCUWT_HvCzQEIoKOXMG"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_atkrange",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-LCUWVW_uDS9TykT8eyH"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_dmgbase",
+            "current": "1",
+            "max": "",
+            "id": "-LCUWWc3zOWD06mTnC8e"
+        },
+        {
+            "name": "repeating_attack_-LCUWQAEy4KPl0ZlGFrv_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUWWn8q_Inx3ipSJG4"
+        },
+        {
+            "name": "repeating_traits_-LCUWbH1vH1xnyZhF6Ti_name",
+            "current": "Keen Hearing and Smell",
+            "max": "",
+            "id": "-LCUWcHTAZQMfKf26eG3"
+        },
+        {
+            "name": "repeating_traits_-LCUWbH1vH1xnyZhF6Ti_source_type",
+            "current": "Bear",
+            "max": "",
+            "id": "-LCUWcldqoyWgbUmJBUC"
+        },
+        {
+            "name": "repeating_traits_-LCUWbH1vH1xnyZhF6Ti_description",
+            "current": "The bear has advantage on Wisdom (Perception) Checks that rely on hearing or smell.",
+            "max": "",
+            "id": "-LCUWf23admJpr_bSILs"
+        },
+        {
+            "name": "repeating_traits_-LCUWbH1vH1xnyZhF6Ti_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUWm-tbERVcYsIgKaH"
+        },
+        {
+            "name": "repeating_traits_-LCUWbH1vH1xnyZhF6Ti_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUWmHckASBcTVNUTAi"
+        },
+        {
+            "name": "_reporder_repeating_traits",
+            "current": "-LCUWbH1vH1xnyZhF6Ti,-LCUUut23EjASJHkJpO-,-LCUUzI1KDmGQ7sj-yQb,-LCUV3CCsETa1q2nNi-8,-LCUVB2XbgKBBy2qBtYu,-LCUVFz9r1cxzfad0W27,-LCUVOzFcM1TN3mIzVGs",
+            "max": "",
+            "id": "-LCUWnJnqGvrBNZjurz2"
+        },
+        {
+            "name": "repeating_traits_-LCUWpOqsTL8JgVJasxC_name",
+            "current": "Boon of Life",
+            "max": "",
+            "id": "-LCUWqBS2nH0-KFi5mW3"
+        },
+        {
+            "name": "repeating_traits_-LCUWpOqsTL8JgVJasxC_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUWr0xdaDTNuutubJV"
+        },
+        {
+            "name": "repeating_traits_-LCUWpOqsTL8JgVJasxC_description",
+            "current": "Creatures of the shamans choice 5 feet from the spirit animal have advantage on death saving throws. ",
+            "max": "",
+            "id": "-LCUWrOx21z7acHspdz8"
+        },
+        {
+            "name": "repeating_traits_-LCUWpOqsTL8JgVJasxC_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUWrQH8V0w7Muwsp3O"
+        },
+        {
+            "name": "repeating_traits_-LCUWpOqsTL8JgVJasxC_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUWrmE0dxVfSzKdDOk"
+        },
+        {
+            "name": "repeating_traits_-LCUWtzMjdae0uCnuwVY_name",
+            "current": "Boon of Origin",
+            "max": "",
+            "id": "-LCUWuiSo0Z0g_aYw3RL"
+        },
+        {
+            "name": "repeating_traits_-LCUWtzMjdae0uCnuwVY_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUWwUoOF6aN8B9sraw"
+        },
+        {
+            "name": "repeating_traits_-LCUWtzMjdae0uCnuwVY_description",
+            "current": "While within 15 feet of the spirit animal, if the shaman casts a spell the spirit animal may use its reaction and become the point of origin for that spell. ",
+            "max": "",
+            "id": "-LCUWy9pSL6R9BV_NfMG"
+        },
+        {
+            "name": "repeating_traits_-LCUWtzMjdae0uCnuwVY_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUWy9x5btG7Qf4cOvV"
+        },
+        {
+            "name": "repeating_traits_-LCUWtzMjdae0uCnuwVY_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUWyJ7Zr1mEm_SonR0"
+        },
+        {
+            "name": "repeating_traits_-LCUX09AH2ZgSk13zeTh_name",
+            "current": "Boon of Protection",
+            "max": "",
+            "id": "-LCUX121f5AZK1Po3VCE"
+        },
+        {
+            "name": "repeating_traits_-LCUX09AH2ZgSk13zeTh_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUX37TfH_AAupYhB3A"
+        },
+        {
+            "name": "repeating_traits_-LCUX09AH2ZgSk13zeTh_description",
+            "current": "When a creature attacks a target within 5 feet of the spirit animal, the shaman may use his reaction to impose disadvantage on the roll. ",
+            "max": "",
+            "id": "-LCUX4RhNejhJ37qGxFP"
+        },
+        {
+            "name": "repeating_traits_-LCUX09AH2ZgSk13zeTh_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUX4Rp45fRoxuA7RnI"
+        },
+        {
+            "name": "repeating_traits_-LCUX09AH2ZgSk13zeTh_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUX4kk5SejqyMTfKDN"
+        },
+        {
+            "name": "repeating_traits_-LCUXMOpTf2WmKZxnvFZ_name",
+            "current": "Boon of Rituals",
+            "max": "",
+            "id": "-LCUXOFA5H8489XCAFqy"
+        },
+        {
+            "name": "repeating_traits_-LCUXMOpTf2WmKZxnvFZ_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUXPw0CIRFpqI2634e"
+        },
+        {
+            "name": "repeating_traits_-LCUXMOpTf2WmKZxnvFZ_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUXPws66AzlBQcjRzr"
+        },
+        {
+            "name": "repeating_traits_-LCUXMOpTf2WmKZxnvFZ_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUXVQkleWSb9oBjZE0"
+        },
+        {
+            "name": "repeating_traits_-LCUXMOpTf2WmKZxnvFZ_description",
+            "current": "While within 15 feet of the spirit animal, any ritual cast by the shaman takes only half the listed time to cast.",
+            "max": "",
+            "id": "-LCUXY9kX8Fu-qCbVV4O"
+        },
+        {
+            "name": "repeating_traits_-LCUXYiqRiQoZd0qRZ4J_name",
+            "current": "Boon of Stone",
+            "max": "",
+            "id": "-LCUXaUwLrCJk6fikb4_"
+        },
+        {
+            "name": "repeating_traits_-LCUXYiqRiQoZd0qRZ4J_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUXdix6sqMvVNxOgbM"
+        },
+        {
+            "name": "repeating_traits_-LCUXYiqRiQoZd0qRZ4J_description",
+            "current": "As an action the spirit animal can give temporary hit points equal to your shaman level to a creature within 15 feet that it can see. This boon can only affect one  creature at a time. If this boon is used again, any other instances of temporary hit points given from this boon disappear. This boon can be used a number of times per short or long rest equal to your Wisdom modifier.",
+            "max": "",
+            "id": "-LCUXeBCC6G1vC70eTZh"
+        },
+        {
+            "name": "repeating_traits_-LCUXYiqRiQoZd0qRZ4J_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUXeWcWjq13VHKdPUe"
+        },
+        {
+            "name": "repeating_traits_-LCUXYiqRiQoZd0qRZ4J_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUXems0DXSIIVHV_yP"
+        },
+        {
+            "name": "repeating_traits_-LCUXiKftrgUZCHQRSb-_name",
+            "current": "Boon of Telepathy",
+            "max": "",
+            "id": "-LCUXkYw3y-90ah6e4Sr"
+        },
+        {
+            "name": "repeating_traits_-LCUXiKftrgUZCHQRSb-_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUXleHb1jcDUQuevFY"
+        },
+        {
+            "name": "repeating_traits_-LCUXiKftrgUZCHQRSb-_description",
+            "current": "The spirit animal gains limited telepathy to communicate simple ideas, emotions, and images to any creature within 100 feet of itself that can understand a language.",
+            "max": "",
+            "id": "-LCUXm5cl-gPrYqhqKpr"
+        },
+        {
+            "name": "repeating_traits_-LCUXiKftrgUZCHQRSb-_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUXm6MEQ77ItzD1yNE"
+        },
+        {
+            "name": "repeating_traits_-LCUXiKftrgUZCHQRSb-_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUXmL5KTIMQcMSQR-M"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "",
+            "max": "",
+            "id": "-LCUYZ3ZPYKLOR2nFnwZ"
+        },
+        {
+            "name": "repeating_traits_-LCUYp4JeSKXn6qkWUOP_name",
+            "current": "Boon of Travel",
+            "max": "",
+            "id": "-LCUYpxd_4LOgWvSoo-8"
+        },
+        {
+            "name": "repeating_traits_-LCUYp4JeSKXn6qkWUOP_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUYqpFJyFl2JH2swkw"
+        },
+        {
+            "name": "repeating_traits_-LCUYp4JeSKXn6qkWUOP_description",
+            "current": "While summoned, both the spirit animal and shaman gain an additional 10 feet of movement",
+            "max": "",
+            "id": "-LCUYrEzBYv9h_BXGR6o"
+        },
+        {
+            "name": "repeating_traits_-LCUYp4JeSKXn6qkWUOP_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUYrFt1ETZO7frn-pc"
+        },
+        {
+            "name": "repeating_traits_-LCUYp4JeSKXn6qkWUOP_display_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUYyRRuZ78zzLRoKJH"
+        },
+        {
+            "name": "repeating_traits_-LCUYzy2nT9orWzKgfco_name",
+            "current": "Boon of Vigilence",
+            "max": "",
+            "id": "-LCUZ07lkAByQKxr0Wnl"
+        },
+        {
+            "name": "repeating_traits_-LCUYzy2nT9orWzKgfco_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUZ0kPwBJSWFKFX7mD"
+        },
+        {
+            "name": "repeating_traits_-LCUYzy2nT9orWzKgfco_description",
+            "current": "Enemies within 15 feet of the spirit animal don't benefit from half cover",
+            "max": "",
+            "id": "-LCUZ1IXmlUkk1BrnbH8"
+        },
+        {
+            "name": "repeating_traits_-LCUYzy2nT9orWzKgfco_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUZ1JidJ6luGILx_Hs"
+        },
+        {
+            "name": "repeating_traits_-LCUYzy2nT9orWzKgfco_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUZ1UhsqVjsaB_XHZE"
+        },
+        {
+            "name": "repeating_traits_-LCUZ1dvZr9A3ZiTe2gr_name",
+            "current": "Boon of Vigor",
+            "max": "",
+            "id": "-LCUZ5RcFCFrGvNs5Y_B"
+        },
+        {
+            "name": "repeating_traits_-LCUZ1dvZr9A3ZiTe2gr_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUZ7GG9yu2xHYLQrSE"
+        },
+        {
+            "name": "repeating_traits_-LCUZ1dvZr9A3ZiTe2gr_description",
+            "current": "If the spirit animal takes any damage while within 15 feet of the shaman, the shaman may use their reaction to take the damage themselves instead. ",
+            "max": "",
+            "id": "-LCUZ7hCoMSXos1QV8Fy"
+        },
+        {
+            "name": "repeating_traits_-LCUZ1dvZr9A3ZiTe2gr_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUZ7iKAnfE2ZauBzN9"
+        },
+        {
+            "name": "repeating_traits_-LCUZ1dvZr9A3ZiTe2gr_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUZ7xSgKuvUWoD_S13"
+        },
+        {
+            "name": "repeating_traits_-LCUZ9oYooAdvtViU-4x_name",
+            "current": "Boon of Vitality",
+            "max": "",
+            "id": "-LCUZB9t3aybjKIJC9mb"
+        },
+        {
+            "name": "repeating_traits_-LCUZ9oYooAdvtViU-4x_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUZBs9BF_E4yCynJO9"
+        },
+        {
+            "name": "repeating_traits_-LCUZ9oYooAdvtViU-4x_description",
+            "current": "Allies within 15 feet of the spirit animal may roll their hit die twice and use either result when recovering hit points during a short or long rest.",
+            "max": "",
+            "id": "-LCUZCBl4M8ILkD6zMbx"
+        },
+        {
+            "name": "repeating_traits_-LCUZ9oYooAdvtViU-4x_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUZCIhq69hxutVdwbt"
+        },
+        {
+            "name": "repeating_traits_-LCUZ9oYooAdvtViU-4x_display_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUZCrZ36KiSifp3Iyb"
+        },
+        {
+            "name": "repeating_traits_-LCUZEKvv8DLfHXldsj-_name",
+            "current": "Boon of Whispers",
+            "max": "",
+            "id": "-LCUZFUbt5aWjQBJV61j"
+        },
+        {
+            "name": "repeating_traits_-LCUZEKvv8DLfHXldsj-_source_type",
+            "current": "Spirit Guide Boon",
+            "max": "",
+            "id": "-LCUZGRtDfIsjehvuOr8"
+        },
+        {
+            "name": "repeating_traits_-LCUZEKvv8DLfHXldsj-_description",
+            "current": "While within 15 feet of the spirit animal, the shaman can understand the vague meaning of any intelligent spoken language that they hear.",
+            "max": "",
+            "id": "-LCUZH-tDwgPS2olxBUf"
+        },
+        {
+            "name": "repeating_traits_-LCUZEKvv8DLfHXldsj-_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCUZH1yOu4WJyHklP75"
+        },
+        {
+            "name": "repeating_traits_-LCUZEKvv8DLfHXldsj-_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCUZHICAaqZnt3_mxn6"
+        },
+        {
+            "name": "USECOLOR",
+            "current": "YES",
+            "max": "",
+            "id": "-LCft5G5tB5GJiG6Kqrc"
+        },
+        {
+            "name": "USEBLOOD",
+            "current": "DEFAULT",
+            "max": "",
+            "id": "-LCft5HC3OSfqexYqNLW"
+        },
+        {
+            "name": "base_level",
+            "current": "1",
+            "max": "",
+            "id": "-LDEmME9gaqX1wH4L-Ut"
+        },
+        {
+            "name": "version",
+            "current": "2.7",
+            "max": "",
+            "id": "-LJC5ei85j7f4cAyz7cs"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiCnqgyo49Y1iyQ"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiE44WfKFEbGbbB"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiHKUoEBcN_sxuE"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiJSDtjH8bvmUXs"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiLRJ7loyGv04qw"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LJC5eiM6ez4g6zwUwK7"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LOCN-k4ADJjqTTKkJZC"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LdP1s8Jvs-n6YewriK3"
+        },
+        {
+            "name": "charactermancer_step",
+            "current": "l1-welcome",
+            "max": "",
+            "id": "-LdP1s8TJ4zOyMNX4KcW"
+        }
+    ],
+    "abilities": []
+}
