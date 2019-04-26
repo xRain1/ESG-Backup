@@ -1,0 +1,1728 @@
+{
+    "schema_version": 2,
+    "oldId": "-Lcm0FXDZYp1KTPIL9mZ",
+    "name": "Junji's Alp",
+    "avatar": "https://i.imgur.com/W82clGF.png?1555617352229",
+    "bio": "",
+    "gmnotes": "",
+    "defaulttoken": "{\"represents\":\"-Lcm0FXDZYp1KTPIL9mZ\",\"name\":\"Alp\",\"imgsrc\":\"https://i.imgur.com/W82clGF.png?1555617352229\",\"width\":70,\"height\":70,\"light_hassight\":true,\"light_radius\":\"60\",\"light_dimradius\":\"0\"}",
+    "tags": "[\"creature-undead\",\"creature-shapechanger\",\"creature-cr-6\",\"creature-book-of-beautiful-horrors\",\"creature-medium\",\"creature\"]",
+    "controlledby": "-LCBpQfdLBQqXqTT_9qY",
+    "inplayerjournals": "-LCBpQfdLBQqXqTT_9qY",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": 1,
+            "max": "",
+            "id": "-Lcm0FXvo6KkoSspiH2-"
+        },
+        {
+            "name": "npc_toggle",
+            "current": 1,
+            "max": "",
+            "id": "-Lcm0FXw1eGwV6ymqyNj"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FXw1eGwV6ymqyNk"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-Lcm0FXxlq0gT74dKxWM"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-Lcm0FXxlq0gT74dKxWN"
+        },
+        {
+            "name": "advantagetoggle",
+            "current": "{{query=1}} {{advantage=1}} {{r2=[[@{d20}",
+            "max": "",
+            "id": "-Lcm0FXxlq0gT74dKxWO"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "/w gm ",
+            "max": "",
+            "id": "-Lcm0FXywT4maArQacFs"
+        },
+        {
+            "name": "dtype",
+            "current": "full",
+            "max": "",
+            "id": "-Lcm0FXzub-Atdpy_INE"
+        },
+        {
+            "name": "npc_name",
+            "current": "Alp",
+            "max": "",
+            "id": "-Lcm0FXzub-Atdpy_INF"
+        },
+        {
+            "name": "npc_size",
+            "current": "Medium",
+            "max": "",
+            "id": "-Lcm0FXzub-Atdpy_ING"
+        },
+        {
+            "name": "type",
+            "current": "undead (shapechanger)",
+            "max": "",
+            "id": "-Lcm0FXzub-Atdpy_INH"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium undead (shapechanger), lawful evil",
+            "max": "",
+            "id": "-Lcm0FY-2GXzObzKq8cd"
+        },
+        {
+            "name": "npc_alignment",
+            "current": "lawful evil",
+            "max": "",
+            "id": "-Lcm0FY-2GXzObzKq8ce"
+        },
+        {
+            "name": "npc_ac",
+            "current": "18",
+            "max": "",
+            "id": "-Lcm0FY-2GXzObzKq8cf"
+        },
+        {
+            "name": "npc_actype",
+            "current": "natural armor",
+            "max": "",
+            "id": "-Lcm0FY0V3XpiPev469E"
+        },
+        {
+            "name": "npc_hpbase",
+            "current": 82,
+            "max": "",
+            "id": "-Lcm0FY0V3XpiPev469F"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "11d8 + 33",
+            "max": "",
+            "id": "-Lcm0FY1GQxLy9N6_WBp"
+        },
+        {
+            "name": "npc_speed",
+            "current": "60 ft., climb 60 ft.",
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTL"
+        },
+        {
+            "name": "strength",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTM"
+        },
+        {
+            "name": "strength_base",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTN"
+        },
+        {
+            "name": "strength_mod",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTO"
+        },
+        {
+            "name": "dexterity",
+            "current": 23,
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTP"
+        },
+        {
+            "name": "dexterity_base",
+            "current": 23,
+            "max": "",
+            "id": "-Lcm0FY2RW_j1SQxZOTQ"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0FY3w-K6zqfuY8zD"
+        },
+        {
+            "name": "constitution",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY3w-K6zqfuY8zE"
+        },
+        {
+            "name": "constitution_base",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY3w-K6zqfuY8zF"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FY3w-K6zqfuY8zG"
+        },
+        {
+            "name": "intelligence",
+            "current": 14,
+            "max": "",
+            "id": "-Lcm0FY3w-K6zqfuY8zH"
+        },
+        {
+            "name": "intelligence_base",
+            "current": 14,
+            "max": "",
+            "id": "-Lcm0FY4v5oCpcpk2MId"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0FY4v5oCpcpk2MIe"
+        },
+        {
+            "name": "wisdom",
+            "current": 10,
+            "max": "",
+            "id": "-Lcm0FY4v5oCpcpk2MIf"
+        },
+        {
+            "name": "wisdom_base",
+            "current": 10,
+            "max": "",
+            "id": "-Lcm0FY4v5oCpcpk2MIg"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FY5QGcWsqCtyi8p"
+        },
+        {
+            "name": "charisma",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY5QGcWsqCtyi8q"
+        },
+        {
+            "name": "charisma_base",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0FY5QGcWsqCtyi8r"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FY5QGcWsqCtyi8s"
+        },
+        {
+            "name": "passive",
+            "current": 13,
+            "max": "",
+            "id": "-Lcm0FY5QGcWsqCtyi8t"
+        },
+        {
+            "name": "npc_languages",
+            "current": "Common, Elvish",
+            "max": "",
+            "id": "-Lcm0FY6VCBjfeUD6Van"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "6",
+            "max": "",
+            "id": "-Lcm0FY6VCBjfeUD6Vao"
+        },
+        {
+            "name": "level",
+            "current": 1,
+            "max": "",
+            "id": "-Lcm0FY6VCBjfeUD6Vap"
+        },
+        {
+            "name": "npc_xp",
+            "current": "2300",
+            "max": "",
+            "id": "-Lcm0FY6VCBjfeUD6Vaq"
+        },
+        {
+            "name": "npc_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY6VCBjfeUD6Var"
+        },
+        {
+            "name": "damage_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY7ya80CkxaQH4C"
+        },
+        {
+            "name": "npc_resistances",
+            "current": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
+            "max": "",
+            "id": "-Lcm0FY7ya80CkxaQH4D"
+        },
+        {
+            "name": "damage_resistances",
+            "current": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
+            "max": "",
+            "id": "-Lcm0FY7ya80CkxaQH4E"
+        },
+        {
+            "name": "npc_immunities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY8F7XCYKgy-8Mh"
+        },
+        {
+            "name": "damage_immunities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY8F7XCYKgy-8Mi"
+        },
+        {
+            "name": "npc_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY8F7XCYKgy-8Mj"
+        },
+        {
+            "name": "damage_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FY8F7XCYKgy-8Mk"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 60 ft., passive Perception 13",
+            "max": "",
+            "id": "-Lcm0FY9oDYCaRjVoIf6"
+        },
+        {
+            "name": "npc_saving_flag",
+            "current": "1337",
+            "max": "",
+            "id": "-Lcm0FYEZFqtg2PvCkkC"
+        },
+        {
+            "name": "npc_dex_save_flag",
+            "current": 9,
+            "max": "",
+            "id": "-Lcm0FYFEslzBm6fdRfc"
+        },
+        {
+            "name": "npc_dex_save",
+            "current": 9,
+            "max": "",
+            "id": "-Lcm0FYFEslzBm6fdRfd"
+        },
+        {
+            "name": "npc_cha_save_flag",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0FYFEslzBm6fdRfe"
+        },
+        {
+            "name": "npc_cha_save",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0FYFEslzBm6fdRff"
+        },
+        {
+            "name": "npc_skills_flag",
+            "current": "1337",
+            "max": "",
+            "id": "-Lcm0FYGSBEQ4g-57gg4"
+        },
+        {
+            "name": "npc_perception_base",
+            "current": "3",
+            "max": "",
+            "id": "-Lcm0FYGSBEQ4g-57gg5"
+        },
+        {
+            "name": "npc_perception",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FYGSBEQ4g-57gg6"
+        },
+        {
+            "name": "npc_perception_flag",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FYGSBEQ4g-57gg7"
+        },
+        {
+            "name": "npc_stealth_base",
+            "current": "9",
+            "max": "",
+            "id": "-Lcm0FYGSBEQ4g-57gg8"
+        },
+        {
+            "name": "npc_stealth",
+            "current": 9,
+            "max": "",
+            "id": "-Lcm0FYHZfFheI_3IEMD"
+        },
+        {
+            "name": "npc_stealth_flag",
+            "current": 9,
+            "max": "",
+            "id": "-Lcm0FYHZfFheI_3IEME"
+        },
+        {
+            "name": "npcspellcastingflag",
+            "current": "1",
+            "max": "",
+            "id": "-Lcm0FYJh2o-8HBR9luN"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "@{charisma_mod}+",
+            "max": "",
+            "id": "-Lcm0FYJh2o-8HBR9luO"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYKVJrQjtlnAvtl_name",
+            "current": "Spellcasting",
+            "max": "",
+            "id": "-Lcm0FYMBymoTol7nnk7"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYKVJrQjtlnAvtl_desc",
+            "current": "Innate Spellcasting. The alp's innate spellcasting ability is Charisma (spell save DC 14). The alp can innately cast the following spells, requiring no material components:\n\nAt will: dream, gaseous form (self only), hypnotic pattern, sleep (3rd-level version)",
+            "max": "",
+            "id": "-Lcm0FYMBymoTol7nnk8"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYXTklQLnZLxb61_name",
+            "current": "Shapechanger",
+            "max": "",
+            "id": "-Lcm0FYXTklQLn_Lxb62"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYXTklQLnZLxb61_desc",
+            "current": "If the vampire isn't in sunlight, it can use its action to polymorph into a Medium female humanoid or back into its true form. While in humanoid form, its statistics, are the same. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+            "max": "",
+            "id": "-Lcm0FYZ4bUCt_QSYH0l"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYZ4bUCtZQSYH0m_name",
+            "current": "Elusive",
+            "max": "",
+            "id": "-Lcm0FYZ4bUCt_QSYH0n"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYZ4bUCtZQSYH0m_desc",
+            "current": "Attack rolls made against the vampire have disadvantage unless the vampire is incapacitated or restrained. No attack roll has advantage against the vampire while it isn't incapacitated.",
+            "max": "",
+            "id": "-Lcm0FY_ZHnmk7lUfDbb"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYZZHnmk7lUfDbc_name",
+            "current": "Vampire Weaknesses",
+            "max": "",
+            "id": "-Lcm0FY_ZHnmk7lUfDbd"
+        },
+        {
+            "name": "repeating_npctrait_-Lcm0FYZZHnmk7lUfDbc_desc",
+            "current": "The vampire has the following flaws:\n\nBlood Addiction: If the temptation for blood is strong (an open wound, the smell of blood), the vampire has disadvantage on blood frenzy saving throws. In the presence of the blood of a virgin the vampire fails automatically.\n\nSunlight Hypersensitivity: The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.",
+            "max": "",
+            "id": "-Lcm0FYbyej4f5oUNiiL"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-Lcm0FYclb_5M3RfoXP2"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_npc_options-flag",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FYclb_5M3RfoXP3"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_rollbase",
+            "current": "@{wtype}&{template:npcaction} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0FYclb_5M3RfoXP4"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_name_display",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-Lcm0FYdM7N3GYh8DP_7"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_description",
+            "current": "The vampire makes three melee attacks, only one of which can be a bite attack.",
+            "max": "",
+            "id": "-Lcm0FYdM7N3GYh8DP_8"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_description_flag",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0FYdM7N3GYh8DP_9"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYclbZ5M3RfoXP1_show_desc",
+            "current": "@{description}",
+            "max": "",
+            "id": "-Lcm0FYeiPo-Ne_2hGuy"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_name",
+            "current": "Claws (Vampire Form Only)",
+            "max": "",
+            "id": "-Lcm0FYfYrWQqizCUAJR"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-Lcm0FYfYrWQqizCUAJS"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0FYgHwgK3jaDGL_6"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-Lcm0FYgHwgK3jaDGL_7"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-Lcm0FYgHwgK3jaDGL_8"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_tohit",
+            "current": "9",
+            "max": "",
+            "id": "-Lcm0FYhSp7QFqWvaM-i"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_damage",
+            "current": "2d4 + 6",
+            "max": "",
+            "id": "-Lcm0FYhSp7QFqWvaM-j"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_crit",
+            "current": "2d4 ",
+            "max": "",
+            "id": "-Lcm0FYhSp7QFqWvaM-k"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_damagetype",
+            "current": "slashing",
+            "max": "",
+            "id": "-Lcm0FYhSp7QFqWvaM-l"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_name_display",
+            "current": "Claws (Vampire Form Only)",
+            "max": "",
+            "id": "-Lcm0FYiT-dZMbh2GUqs"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_rollbase",
+            "current": "@{wtype}&{template:npcaction} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0FYiT-dZMbh2GUqt"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-Lcm0FYiT-dZMbh2GUqu"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_type_display",
+            "current": "Melee Weapon Attack:",
+            "max": "",
+            "id": "-Lcm0FYj3psVgG6EId-W"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_tohitrange",
+            "current": "+9, Reach 5 ft.,  one target.",
+            "max": "",
+            "id": "-Lcm0FYj3psVgG6EId-X"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-Lcm0FYk5TeiyPXNQUbO"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_target",
+            "current": " one target",
+            "max": "",
+            "id": "-Lcm0FYk5TeiyPXNQUbP"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-Lcm0FYk5TeiyPXNQUbQ"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_attack_onhit",
+            "current": "10 (2d4 + 6) slashing damage",
+            "max": "",
+            "id": "-Lcm0FYltsku1XRQH0NB"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_description",
+            "current": "Instead of dealing damage, the vampire can grapple the target (escape DC 14).",
+            "max": "",
+            "id": "-Lcm0FYltsku1XRQH0NC"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_description_flag",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0FYltsku1XRQH0ND"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYfYrWQqizCUAJQ_show_desc",
+            "current": "@{description}",
+            "max": "",
+            "id": "-Lcm0FYmrVzUmqL3Nfr-"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_name",
+            "current": "Bite (Vampire Form Only)",
+            "max": "",
+            "id": "-Lcm0FYooUX5rcYCc76a"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-Lcm0FYooUX5rcYCc76b"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0FYooUX5rcYCc76c"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-Lcm0FYpYZBh6YjjRdGm"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-Lcm0FYpYZBh6YjjRdGn"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_tohit",
+            "current": "9",
+            "max": "",
+            "id": "-Lcm0FYpYZBh6YjjRdGo"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_damage",
+            "current": "1d6 + 6",
+            "max": "",
+            "id": "-Lcm0FYpYZBh6YjjRdGp"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_crit",
+            "current": "1d6 ",
+            "max": "",
+            "id": "-Lcm0FYqzVGOb3b2uSxE"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_damagetype",
+            "current": "piercing",
+            "max": "",
+            "id": "-Lcm0FYqzVGOb3b2uSxF"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_damage2",
+            "current": "2d6",
+            "max": "",
+            "id": "-Lcm0FYqzVGOb3b2uSxG"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_crit2",
+            "current": "2d6",
+            "max": "",
+            "id": "-Lcm0FYrs4Hgue3_Vylo"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_damagetype2",
+            "current": "necrotic",
+            "max": "",
+            "id": "-Lcm0FYrs4Hgue3_Vylp"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_name_display",
+            "current": "Bite (Vampire Form Only)",
+            "max": "",
+            "id": "-Lcm0FYrs4Hgue3_Vylq"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_rollbase",
+            "current": "@{wtype}&{template:npcaction} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0FYrs4Hgue3_Vylr"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-Lcm0FYsuwPk_rCLPDb9"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_type_display",
+            "current": "Melee Weapon Attack:",
+            "max": "",
+            "id": "-Lcm0FYsuwPk_rCLPDbA"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_tohitrange",
+            "current": "+9, Reach 5 ft.,  one creature that is grappled by the vampire, incapacitated or restrained.",
+            "max": "",
+            "id": "-Lcm0FYt3uNqrCVjFBFH"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-Lcm0FYt3uNqrCVjFBFI"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_target",
+            "current": " one creature that is grappled by the vampire, incapacitated or restrained",
+            "max": "",
+            "id": "-Lcm0FYt3uNqrCVjFBFJ"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} {{dmg2flag=1}}",
+            "max": "",
+            "id": "-Lcm0FYt3uNqrCVjFBFK"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_attack_onhit",
+            "current": "9 (1d6 + 6) piercing damage plus 7 (2d6) necrotic damage",
+            "max": "",
+            "id": "-Lcm0FYuzXWMXYs4-AfA"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_description",
+            "current": "Hit: 9 (1d6 + 6) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+            "max": "",
+            "id": "-Lcm0FYuzXWMXYs4-AfB"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_description_flag",
+            "current": 8,
+            "max": "",
+            "id": "-Lcm0FYvIDx0X5u4Jf0i"
+        },
+        {
+            "name": "repeating_npcaction_-Lcm0FYooUX5rcYCc76Z_show_desc",
+            "current": "@{description}",
+            "max": "",
+            "id": "-Lcm0FYvIDx0X5u4Jf0j"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FYwaJ1Sz4dzKgkR"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": 14,
+            "max": "",
+            "id": "-Lcm0Ff9L-2sxtvh0U1j"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfABe_YFLaqMcNA"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfBdtiydXZApfh_"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfDD9Kmxy_2jWmZ"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfFuo0ntayuoH7g"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfH3as2DBnoxDAW"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfIGGafGuuY--Jm"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfJ9eUn8MKRAuKL"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfKkHHr4Us9xnqF"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FfMoNQ1uzT0Qe5c"
+        },
+        {
+            "name": "version",
+            "current": "2.7",
+            "max": "",
+            "id": "-Lcm0Foy5wXCEfYMiX2W"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-Lcm0FpKPE0s2y5f4gfu"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0FpewvhRs895HIK9"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-Lcm0Fq2Yo4BujBc_vuj"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FqB817iQL5rQPAs"
+        },
+        {
+            "name": "class_display",
+            "current": " 1",
+            "max": "",
+            "id": "-Lcm0FqFTZq5UpZwWUxC"
+        },
+        {
+            "name": "hit_dice",
+            "current": "",
+            "max": 1,
+            "id": "-Lcm0FqLd9Z8u8FcG9xB"
+        },
+        {
+            "name": "race_display",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FqRKdvlOvpxeGmz"
+        },
+        {
+            "name": "pb",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0Fqz_ohBtPQagQy1"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-Lcm0Fr3hjFOHzUKkh0w"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0FrBIJ8J6i3mKNE5"
+        },
+        {
+            "name": "showleveler",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0FrF-v14f52K8X19"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spelllevel",
+            "current": "5",
+            "max": "",
+            "id": "-Lcm0FuAxpmek_4mfVRT"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-Lcm0FuCa0NEa1zTBtCp"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellname",
+            "current": "Dream",
+            "max": "",
+            "id": "-Lcm0FuJ87AIJNrVhv5W"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellschool",
+            "current": "illusion",
+            "max": "",
+            "id": "-Lcm0FuRNTy40pGf1w23"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellcastingtime",
+            "current": "1 minute",
+            "max": "",
+            "id": "-Lcm0FuYuvSJvmmxxt1s"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellrange",
+            "current": "Special",
+            "max": "",
+            "id": "-Lcm0FueCFUoscBas330"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellcomp_materials",
+            "current": "a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird",
+            "max": "",
+            "id": "-Lcm0Fulp3NTXB10szKF"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spellduration",
+            "current": "8 hours",
+            "max": "",
+            "id": "-Lcm0FurSjIQmIU4nslO"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spelldescription",
+            "current": "This spell shapes a creature's dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don't sleep, such as elves, can't be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can't take actions or move.\n\nIf the target is asleep, the messenger appears in the target's dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target's dreams.\n\nYou can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes [[3d6]] psychic damage.\n\nIf you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.",
+            "max": "",
+            "id": "-Lcm0FutJ9IEZIjbO6b7"
+        },
+        {
+            "name": "repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0Fv-3dVpkFzjVhY8"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spelllevel",
+            "current": "3",
+            "max": "",
+            "id": "-Lcm0FvjSVVlzJZlibLG"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-Lcm0FvqBoGol8csGq-N"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellname",
+            "current": "Gaseous Form",
+            "max": "",
+            "id": "-Lcm0Fvsgb7ufzhn-k4d"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellschool",
+            "current": "transmutation",
+            "max": "",
+            "id": "-Lcm0Fw-VKhViD8NTvAj"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-Lcm0Fw69A2dFS9s9bi_"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-Lcm0FwFfoK6X8TCgDT2"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellcomp_materials",
+            "current": "a bit of gauze and a wisp of smoke",
+            "max": "",
+            "id": "-Lcm0FwLXImdf0948zYw"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-Lcm0FwSHMfFAK5YGLdN"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spellduration",
+            "current": "up to 1 hour",
+            "max": "",
+            "id": "-Lcm0FwZDjI7YXmHWhZt"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spelldescription",
+            "current": "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.\n\nWhile in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.\n\nWhile in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.",
+            "max": "",
+            "id": "-Lcm0FwauKvsgpw_s81u"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0FwjyRFU2KIIafGx"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spelllevel",
+            "current": "3",
+            "max": "",
+            "id": "-Lcm0FxQL2d2SRG1vHQB"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-Lcm0FxXZNO7O_oIqXG7"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellname",
+            "current": "Hypnotic Pattern",
+            "max": "",
+            "id": "-Lcm0FxhYsQtJxPwqqMs"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellschool",
+            "current": "illusion",
+            "max": "",
+            "id": "-Lcm0Fxjd3uvERz8h_Pt"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-Lcm0FxpEQTYNqEZbRre"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-Lcm0Fxw1-5y-tjqynDb"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spelltarget",
+            "current": "Each creature in the area who sees the pattern",
+            "max": "",
+            "id": "-Lcm0Fy2LwnZ6HZc6Z6E"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellcomp_v",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0Fy8i5O7U5TF_JUp"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellcomp_materials",
+            "current": "a glowing stick of incense or a crystal vial filled with phosphorescent material",
+            "max": "",
+            "id": "-Lcm0FyFQvZfU7GIKCaO"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-Lcm0FyLPGvF4GTScA9f"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellduration",
+            "current": "up to 1 minute",
+            "max": "",
+            "id": "-Lcm0FyNcQhqhjYaJG77"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spellsave",
+            "current": "Wisdom",
+            "max": "",
+            "id": "-Lcm0FyUWHD4HWO6YpQt"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spelldescription",
+            "current": "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.",
+            "max": "",
+            "id": "-Lcm0Fya2TpFFtwSo9ft"
+        },
+        {
+            "name": "repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0FyhuQMrhLNLdcZl"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-Lcm0FzKLLMsvu6Iscw0"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-Lcm0FzRLC-uz0m_gXKk"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellname",
+            "current": "Sleep",
+            "max": "",
+            "id": "-Lcm0FzYdYhTS8Tp1Hso"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellschool",
+            "current": "enchantment",
+            "max": "",
+            "id": "-Lcm0FzdLzbhBR9Z-e7k"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-Lcm0FzepVClZARHO30w"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellrange",
+            "current": "90 feet",
+            "max": "",
+            "id": "-Lcm0Fzlj09NYCxsd2YC"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelltarget",
+            "current": "Each creature inside a 20-foot-radius sphere centered on a point within range",
+            "max": "",
+            "id": "-Lcm0Fzr7yzSbVDEgjxs"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellcomp_materials",
+            "current": "a pinch of fine sand, rose petals, or a cricket",
+            "max": "",
+            "id": "-Lcm0FzyhM5q3o4Jpvto"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellduration",
+            "current": "1 minute",
+            "max": "",
+            "id": "-Lcm0G-3ar4mK2vKuyRb"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-Lcm0G-AO0CEZHs0n36z"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelldamage",
+            "current": "5d8",
+            "max": "",
+            "id": "-Lcm0G-W1nmS-nmjvuNT"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelldamagetype",
+            "current": "Effect",
+            "max": "",
+            "id": "-Lcm0G-Y2062O5HsTf4H"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellhldie",
+            "current": "2",
+            "max": "",
+            "id": "-Lcm0G-fkYoCoBpSKEii"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellhldietype",
+            "current": "d8",
+            "max": "",
+            "id": "-Lcm0G-mV27aolRdKVzJ"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional [[2d8]] for each slot level above 1st.",
+            "max": "",
+            "id": "-Lcm0G-tTf5Ag4o1f8Ba"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spelldescription",
+            "current": "This spell sends creatures into a magical slumber. Roll [[5d8]]; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\n\nUndead and creatures immune to being charmed aren't affected by this spell.",
+            "max": "",
+            "id": "-Lcm0G0-ivUyxQs7vRl1"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G06tSsMCvE3PUHp"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkattr_base",
+            "current": "spell",
+            "max": "",
+            "id": "-Lcm0G0En9-AXRL2lncN"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G0L894JdPJ5uMVM"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_spellid",
+            "current": "-Lcm0FzKLLMsvu6Iscw-",
+            "max": "",
+            "id": "-Lcm0G0WJCWFM5gHbiU3"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-Lcm0G0Yw3yWNQkpSqqJ"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_savedc",
+            "current": "(@{spell_save_dc})",
+            "max": "",
+            "id": "-Lcm0G0dmRfY9p53oS4n"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkname",
+            "current": "Sleep",
+            "max": "",
+            "id": "-Lcm0G0kuoLmrfHGafK0"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G0qFiyKMpNF-luc"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-Lcm0G0yMUytq-uQF4pb"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmgbase",
+            "current": "5d8",
+            "max": "",
+            "id": "-Lcm0G13Uvg8NZVeCV4C"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G1AliY1C6aNJU4F"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmgtype",
+            "current": "Effect",
+            "max": "",
+            "id": "-Lcm0G1B_PA0uh8unpYD"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G1I6qKAIktTEuUG"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmg2attr",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G1OuZmNG7s-kEge"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmg2flag",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G1VShaePq3UCa8b"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G1bm-yUdUXyGDJ-"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkrange",
+            "current": "90 feet",
+            "max": "",
+            "id": "-Lcm0G1hm-hiZ_2aSDBd"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-Lcm0G1iCRe-gIuqVuhK"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G1p8ze00YnpNGZK"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_hldmg",
+            "current": "{{hldmg=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}}",
+            "max": "",
+            "id": "-Lcm0G1vxWgjhnJJEUSw"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G20ow8p4VEjKSyG"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G27vi9xheQSEH28"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spellattackid",
+            "current": "-Lcm0G0CcMYwfITRLQZV",
+            "max": "",
+            "id": "-Lcm0G2D3Fdy-bqoZwSv"
+        },
+        {
+            "name": "repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_rollcontent",
+            "current": "%{-Lcm0FXDZYp1KTPIL9mZ|repeating_attack_-Lcm0G0CcMYwfITRLQZV_attack}",
+            "max": "",
+            "id": "-Lcm0G2FtfqoWvpROqiB"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G2jb64IR0K3ObnC"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G2nVte39YrQRcCu"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G37_oX6SuD5UtSI"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G3CeLlaBXXIUKV4"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G3GCKEG-OjAoB_r"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G3MsdijHgTKrbHt"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G3RSAKwJRk4I1h0"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G3Wj-mvAhGS8-bY"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G3asT0WD4-ABVFB"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G3fYb1iFY5yhciT"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G3jmm9aM1KJHSTk"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G3oJspqkTiR6Ei3"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G3t6syJGSkj9cGV"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G3z3xcExYX9NVpB"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G42FM4mWrs0PXXW"
+        },
+        {
+            "name": "history_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G48ms9agIUWft62"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G4CWX6GqlS1moqj"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G4HC9atO9Cp7Wvl"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-Lcm0G4OYggKtDV9AwrK"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G4U4WWcwWgMSXjp"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G4YktDnLi3_6Kke"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G4bV30ldTTkvGyV"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G4g4JqUuikmcA01"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G4lcwbGaf5U-zCP"
+        },
+        {
+            "name": "deception_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G4qezGS5zyuhlw_"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G4xOwO90R2NYYB4"
+        },
+        {
+            "name": "performance_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G511KLPCp_1rKRK"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G56uSnJcmYscd6r"
+        },
+        {
+            "name": "spell_attack_mod",
+            "current": 0,
+            "max": "",
+            "id": "-Lcm0G5PyUqw5YQTKngy"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": 6,
+            "max": "",
+            "id": "-Lcm0G5UBqT2U7Hkw-VA"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 10,
+            "max": "",
+            "id": "-Lcm0G6y7O730okWqh3t"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G7X9Uuv8GDHT8j1"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G7kXH3zavbgQ6HL"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G7vO7DCUSWaE6K2"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G8-DiTSVj3mJTYJ"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G85uG9JU6KaspDi"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-Lcm0G899YmvmqMPMgYZ"
+        },
+        {
+            "name": "pb_custom",
+            "current": 3,
+            "max": "",
+            "id": "-Lcm0G8h-aeuKB1e7xl5"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-Lcm0G8l7_-p-8iTw4DZ"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-Lcm0GBih_EHXZWy_zlt"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-Lcm0GBqNRcP8aw3qxWN"
+        },
+        {
+            "name": "ac",
+            "current": 16,
+            "max": "",
+            "id": "-Lcm0GBu3YbwL77Z_AND"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Effect }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0GDA34rFSSMAGz-g"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Effect }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[5d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0GDGSJEd8LYYxIcg"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkbonus",
+            "current": "-",
+            "max": "",
+            "id": "-Lcm0GDMZU_WC2z4YmKi"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_atkdmgtype",
+            "current": "5d8 Effect  ",
+            "max": "",
+            "id": "-Lcm0GDQSeZA08rljFbb"
+        },
+        {
+            "name": "repeating_attack_-Lcm0G0CcMYwfITRLQZV_rollbase",
+            "current": "@{wtype}&{template:atkdmg} {{mod=@{atkbonus}}} {{rname=@{atkname}}} {{r1=[[0d20cs>@{atkcritrange}]]}} {{r2=[[0d20cs>@{atkcritrange}]]}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Effect }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[5d8[CRIT]]]}} {{crit2=[[0[CRIT]]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-Lcm0GDX78DEpijevzha"
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Perception",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{Selected|npc_perception} @{selected|wtype} &{template:default} {{name=Senses}}  @{selected|wtype} @{Selected|npc_senses} ",
+            "order": -1
+        },
+        {
+            "name": "Init",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|npc_init}",
+            "order": -1
+        },
+        {
+            "name": "DR/Immunities",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:default} {{name=DR/Immunities}} {{Damage Resistance= @{selected|npc_resistances}}} {{Damage Vulnerability= @{selected|npc_vulnerabilities}}} {{Damage Immunity= @{selected|npc_immunities}}} {{Condition Immunity= @{selected|npc_condition_immunities}}} ",
+            "order": -1
+        },
+        {
+            "name": "Stats",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:default} {{name=Stats}} {{Armor Class= @{selected|npc_AC}}} {{Hit Dice= @{selected|npc_hpformula}}} {{Speed= @{selected|npc_speed}}} {{Skills= @{selected|npc_skills}}} {{Senses= @{selected|npc_senses}}} {{Languages= @{selected|npc_languages}}} {{Challenge= @{selected|npc_challenge}(@{selected|npc_xp}xp)}}",
+            "order": -1
+        },
+        {
+            "name": "Saves",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Saving Throw?|STR,{{rname=Strength Save&#125;&#125;{{mod=@{npc_str_save}&#125;&#125; {{r1=[[1d20+@{npc_str_save}]]&#125;&#125;{{r2=[[1d20+@{npc_str_save}]]&#125;&#125;|DEX,{{rname=Dexterity Save&#125;&#125;{{mod=@{npc_dex_save}&#125;&#125; {{r1=[[1d20+@{npc_dex_save}]]&#125;&#125;{{r2=[[1d20+@{npc_dex_save}]]&#125;&#125;|CON,{{rname=Constitution Save&#125;&#125;{{mod=@{npc_con_save}&#125;&#125; {{r1=[[1d20+@{npc_con_save}]]&#125;&#125;{{r2=[[1d20+@{npc_con_save}]]&#125;&#125;|INT,{{rname=Intelligence Save&#125;&#125;{{mod=@{npc_int_save}&#125;&#125; {{r1=[[1d20+@{npc_int_save}]]&#125;&#125;{{r2=[[1d20+@{npc_int_save}]]&#125;&#125;|WIS,{{rname=Wisdom Save&#125;&#125;{{mod=@{npc_wis_save}&#125;&#125; {{r1=[[1d20+@{npc_wis_save}]]&#125;&#125;{{r2=[[1d20+@{npc_wis_save}]]&#125;&#125;|CHA,{{rname=Charisma Save&#125;&#125;{{mod=@{npc_cha_save}&#125;&#125; {{r1=[[1d20+@{npc_cha_save}]]&#125;&#125;{{r2=[[1d20+@{npc_cha_save}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "Skill-Check",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|Acrobatics,{{rname=Acrobatics&#125;&#125;{{mod=@{npc_acrobatics}&#125;&#125; {{r1=[[1d20+@{npc_acrobatics}]]&#125;&#125;{{r2=[[1d20+@{npc_acrobatics}]]&#125;&#125;|Animal Handling,{{rname=Animal Handling&#125;&#125;{{mod=@{npc_animal_handling}&#125;&#125; {{r1=[[1d20+@{npc_animal_handling}]]&#125;&#125;{{r2=[[1d20+@{npc_animal_handling}]]&#125;&#125;|Arcana,{{rname=Arcana&#125;&#125;{{mod=@{npc_arcana}&#125;&#125; {{r1=[[1d20+@{npc_arcana}]]&#125;&#125;{{r2=[[1d20+@{npc_arcana}]]&#125;&#125;|Athletics,{{rname=Athletics&#125;&#125;{{mod=@{npc_athletics}&#125;&#125; {{r1=[[1d20+@{npc_athletics}]]&#125;&#125;{{r2=[[1d20+@{npc_athletics}]]&#125;&#125;|Deception,{{rname=Deception&#125;&#125;{{mod=@{npc_deception}&#125;&#125; {{r1=[[1d20+@{npc_deception}]]&#125;&#125;{{r2=[[1d20+@{npc_deception}]]&#125;&#125;|History,{{rname=History&#125;&#125;{{mod=@{npc_history}&#125;&#125; {{r1=[[1d20+@{npc_history}]]&#125;&#125;{{r2=[[1d20+@{npc_history}]]&#125;&#125;|Insight,{{rname=Insight&#125;&#125;{{mod=@{npc_insight}&#125;&#125; {{r1=[[1d20+@{npc_insight}]]&#125;&#125;{{r2=[[1d20+@{npc_insight}]]&#125;&#125;|Intimidation,{{rname=Intimidation&#125;&#125;{{mod=@{npc_intimidation}&#125;&#125; {{r1=[[1d20+@{npc_intimidation}]]&#125;&#125;{{r2=[[1d20+@{npc_intimidation}]]&#125;&#125;|Investigation,{{rname=Investigation&#125;&#125;{{mod=@{npc_investigation}&#125;&#125; {{r1=[[1d20+@{npc_investigation}]]&#125;&#125;{{r2=[[1d20+@{npc_investigation}]]&#125;&#125;|Medicine,{{rname=Medicine&#125;&#125;{{mod=@{npc_medicine}&#125;&#125; {{r1=[[1d20+@{npc_medicine}]]&#125;&#125;{{r2=[[1d20+@{npc_medicine}]]&#125;&#125;|Nature,{{rname=Nature&#125;&#125;{{mod=@{npc_nature}&#125;&#125; {{r1=[[1d20+@{npc_nature}]]&#125;&#125;{{r2=[[1d20+@{npc_nature}]]&#125;&#125;|Perception,{{rname=Perception&#125;&#125;{{mod=@{npc_perception}&#125;&#125; {{r1=[[1d20+@{npc_perception}]]&#125;&#125;{{r2=[[1d20+@{npc_perception}]]&#125;&#125;|Performance,{{rname=Performance&#125;&#125;{{mod=@{npc_performance}&#125;&#125; {{r1=[[1d20+@{npc_performance}]]&#125;&#125;{{r2=[[1d20+@{npc_performance}]]&#125;&#125;|Persuasion,{{rname=Persuasion&#125;&#125;{{mod=@{npc_persuasion}&#125;&#125; {{r1=[[1d20+@{npc_persuasion}]]&#125;&#125;{{r2=[[1d20+@{npc_persuasion}]]&#125;&#125;|Religion,{{rname=Religion&#125;&#125;{{mod=@{npc_religion}&#125;&#125; {{r1=[[1d20+@{npc_religion}]]&#125;&#125;{{r2=[[1d20+@{npc_religion}]]&#125;&#125;|Sleight of Hand,{{rname=Sleight of Hand&#125;&#125;{{mod=@{npc_sleight_of_hand}&#125;&#125; {{r1=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;{{r2=[[1d20+@{npc_sleight_of_hand}]]&#125;&#125;|Stealth,{{rname=Stealth&#125;&#125;{{mod=@{npc_stealth}&#125;&#125; {{r1=[[1d20+@{npc_stealth}]]&#125;&#125;{{r2=[[1d20+@{npc_stealth}]]&#125;&#125;|Survival,{{rname=Survival&#125;&#125;{{mod=@{npc_survival}&#125;&#125; {{r1=[[1d20+@{npc_survival}]]&#125;&#125;{{r2=[[1d20+@{npc_survival}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "Ability-Check",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:simple}{{always=1}}?{Ability?|STR,{{rname=Strength&#125;&#125;{{mod=@{strength_mod}&#125;&#125; {{r1=[[1d20+@{strength_mod}]]&#125;&#125;{{r2=[[1d20+@{strength_mod}]]&#125;&#125;|DEX,{{rname=Dexterity&#125;&#125;{{mod=@{dexterity_mod}&#125;&#125; {{r1=[[1d20+@{dexterity_mod}]]&#125;&#125;{{r2=[[1d20+@{dexterity_mod}]]&#125;&#125;|CON,{{rname=Constitution&#125;&#125;{{mod=@{constitution_mod}&#125;&#125; {{r1=[[1d20+@{constitution_mod}]]&#125;&#125;{{r2=[[1d20+@{constitution_mod}]]&#125;&#125;|INT,{{rname=Intelligence&#125;&#125;{{mod=@{intelligence_mod}&#125;&#125; {{r1=[[1d20+@{intelligence_mod}]]&#125;&#125;{{r2=[[1d20+@{intelligence_mod}]]&#125;&#125;|WIS,{{rname=Wisdom&#125;&#125;{{mod=@{wisdom_mod}&#125;&#125; {{r1=[[1d20+@{wisdom_mod}]]&#125;&#125;{{r2=[[1d20+@{wisdom_mod}]]&#125;&#125;|CHA,{{rname=Charisma&#125;&#125;{{mod=@{charisma_mod}&#125;&#125; {{r1=[[1d20+@{charisma_mod}]]&#125;&#125;{{r2=[[1d20+@{charisma_mod}]]&#125;&#125;}{{charname=@{character_name}}} ",
+            "order": -1
+        },
+        {
+            "name": "Trait1: Shapechanger",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$1_name}}} {{description=@{selected|repeating_npctrait_$1_desc} }}",
+            "order": -1
+        },
+        {
+            "name": "Trait2: Elusive",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$2_name}}} {{description=@{selected|repeating_npctrait_$2_desc} }}",
+            "order": -1
+        },
+        {
+            "name": "Trait3: Vampire Weaknesses",
+            "description": "",
+            "istokenaction": true,
+            "action": "@{selected|wtype} &{template:npcaction} {{name=@{selected|npc_name}}} {{rname=@{selected|repeating_npctrait_$3_name}}} {{description=@{selected|repeating_npctrait_$3_desc} }}",
+            "order": -1
+        },
+        {
+            "name": "0: Multiattack",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|repeating_npcaction_$0_npc_action}",
+            "order": -1
+        },
+        {
+            "name": "1: Claws (Vampire Form Only)",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|repeating_npcaction_$1_npc_action}",
+            "order": -1
+        },
+        {
+            "name": "2: Bite (Vampire Form Only)",
+            "description": "",
+            "istokenaction": true,
+            "action": "%{selected|repeating_npcaction_$2_npc_action}",
+            "order": -1
+        },
+        {
+            "name": "Spells",
+            "description": "",
+            "istokenaction": true,
+            "action": "/w gm @{selected|wtype}&{template:npcaction} {{name=@{selected|npc_name}}} {{rname=Spellcasting}} {{description=Innate Spellcasting. The alp's innate spellcasting ability is Charisma (spell save DC 14). The alp can innately cast the following spells, requiring no material components:\nAt will:\n[Dream](~selected|repeating_spell-5_-Lcm0FuAxpmekZ4mfVRS_spell), [Gaseous Form](~selected|repeating_spell-3_-Lcm0FvjSVVlzJZlibLF_spell) (self only), [Hypnotic Pattern](~selected|repeating_spell-3_-Lcm0FxQL2d2SRG1vHQA_spell), [Sleep](~selected|repeating_spell-1_-Lcm0FzKLLMsvu6Iscw-_spell) (3rd-level version)}}",
+            "order": -1
+        }
+    ]
+}

@@ -1,0 +1,3201 @@
+{
+    "schema_version": 2,
+    "oldId": "-LE3ONLc2MAnLkIZRr1b",
+    "name": "Qu (TheBlackSamurai)",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/56094258/MnHaSRXV5Fbv3doIxN5L8Q/med.png?1529015366",
+    "bio": "%5BCharacter%20Name%5D%20%5BRace%5D%20%28Feat%20if%20Human%20V%29%20%5BOriginal%20Class%5D%3Cbr%3E%3FStr%20%7C%20%3FDex%20%7C%20%3FCon%20%7C%20%3FInt%20%7C%20%3FWis%20%7C%20%3FCha%3Cbr%3E%3Cbr%3EPlease%20also%20list%20your%20ASI%20here%20as%20you%20gain%20them",
+    "gmnotes": "%5BCharacter%20Name%5D%20%5BRace%5D%20%28Feat%20if%20Human%20V%29%20%5BOriginal%20Class%5D%3Cbr%3E%3FStr%20%7C%20%3FDex%20%7C%20%3FCon%20%7C%20%3FInt%20%7C%20%3FWis%20%7C%20%3FCha%3Cbr%3E%3Cbr%3EPlease%20also%20list%20your%20ASI%20here%20as%20you%20gain%20them",
+    "defaulttoken": "",
+    "tags": "[]",
+    "controlledby": "-LEwaKKeRhWk6Zssdjma",
+    "inplayerjournals": "-LEwaKKeRhWk6Zssdjma",
+    "attribs": [
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-LE3ONNaQZWLfNApe73B"
+        },
+        {
+            "name": "init_tiebreaker",
+            "current": "@{dexterity}/100",
+            "max": "",
+            "id": "-LE3ONNaQZWLfNApe73C"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNctPlBQSSp3Beb"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNd9kYGALK_iGns"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNd9kYGALK_iGnt"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNd9kYGALK_iGnu"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-LE3ONNfU6SJtat16jRE"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-LE3ONNfU6SJtat16jRF"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 2.14,
+            "max": "",
+            "id": "-LE3ONNggOzPlBKzLnCK"
+        },
+        {
+            "name": "npcspell_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LE3ONNggOzPlBKzLnCL"
+        },
+        {
+            "name": "missing_info",
+            "current": 0,
+            "max": "",
+            "id": "-LE3ONNggOzPlBKzLnCM"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_description",
+            "current": "[[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]]\n\nThese numbers may be arranged in any order.\nIf you dont like these stats you may do 27-point buy with this calculator: http://1-dot-encounter-planner.appspot.com/point-buy-calculator.html",
+            "max": "",
+            "id": "-LE3ONNh-K7RFXlrhJYI"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNh-K7RFXlrhJYJ"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LE3ONNh-K7RFXlrhJYK"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_name",
+            "current": "Link this to chat =====>",
+            "max": "",
+            "id": "-LE3ONNh-K7RFXlrhJYL"
+        },
+        {
+            "name": "tab",
+            "current": "core",
+            "max": "",
+            "id": "-LE3ONNjU7IkUQVsrBMV"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LE3ONNjU7IkUQVsrBMW"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LE3ONNjU7IkUQVsrBMX"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_name",
+            "current": "Follow these instructions",
+            "max": "",
+            "id": "-LE3ONNjU7IkUQVsrBMY"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_description",
+            "current": "Make a token on http://rolladvantage.com/tokenstamp/ upload the token as your character image, and change the character name with this format:\n\nPC Name (Game ID)\n\nThis is so the character can be assigned to you and a token can be made even while you are offline. if you fail to follow these instructions the character will eventually get deleted.",
+            "max": "",
+            "id": "-LE3ONNjU7IkUQVsrBMZ"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LE3ONNlrw7wqBgLXZXX"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-8Q6RVYAiKPYOPTRk"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "15",
+            "max": "",
+            "id": "-LF-8iHybgtbmmO7SUSG"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8iJqHMkKaoS5Kwn2"
+        },
+        {
+            "name": "intelligence",
+            "current": 15,
+            "max": "",
+            "id": "-LF-8iJv3YuZMa8TGXEX"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8iLvXO4iq_FgSftl"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8iLz3a08teDPTmsk"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iNs_9f_Es__pszP"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": 12,
+            "max": "",
+            "id": "-LF-8iNwEtCC43uWUyVA"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iNyy9RwDm3BuQi-"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iO1nzHg5Xs3U4S3"
+        },
+        {
+            "name": "history_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iO3Nz70ERyYLaFk"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iO6jgTbQ9XaOgEe"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8iO97IXs3wJVKKNE"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LF-8iOBmYYtNpHPp7Z7"
+        },
+        {
+            "name": "strength_base",
+            "current": "11",
+            "max": "",
+            "id": "-LF-8oY3qX3wBwPdRnV0"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8o_-4_Tgd7UHbp9d"
+        },
+        {
+            "name": "strength",
+            "current": 11,
+            "max": "",
+            "id": "-LF-8o_15uz_LWUjjB4g"
+        },
+        {
+            "name": "strength_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8ob0pmXMBo3RihPO"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8ob1ABF8qbTl_0V-"
+        },
+        {
+            "name": "weighttotal",
+            "current": 63.2,
+            "max": "",
+            "id": "-LF-8ocwcGEcSF4OQSSv"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LF-8ocz9MHMnwAQA81s"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8oeyK8ePh_bR8SCD"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8oez97TbY4sEvYvw"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "12",
+            "max": "",
+            "id": "-LF-8um_SOem2CG15cue"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LF-8uoZjzHTOsrZOsKn"
+        },
+        {
+            "name": "dexterity",
+            "current": 14,
+            "max": "",
+            "id": "-LF-8uoaNQvXO5fhlMkq"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8uqX0KUmhYrwGsJ1"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LF-8uqcZJ084k2OVEV9"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8uskDYxRrtC2IBgc"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8usoGpAD5Vhxd_lK"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8uspO64hXbNw7Frp"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-8usr09DXdwxCrSMf"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LF-8usuiHzhfLtnjaV9"
+        },
+        {
+            "name": "armorwarning",
+            "current": "0",
+            "max": "",
+            "id": "-LF-8usxSJatzBbo6Dau"
+        },
+        {
+            "name": "ac",
+            "current": 12,
+            "max": "",
+            "id": "-LF-8usyZ2coq1BgWS46"
+        },
+        {
+            "name": "constitution_base",
+            "current": "15",
+            "max": "",
+            "id": "-LF-9861rOjL2QYzResE"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LF-987s5pFzCQyoG5Pu"
+        },
+        {
+            "name": "constitution",
+            "current": 15,
+            "max": "",
+            "id": "-LF-987u7_42lMGIL0Ut"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LF-989eL58OkV_pym7l"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LF-989hiYrgFiDn9eJv"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LF-98BdGGtEdHXQ9M12"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "12",
+            "max": "",
+            "id": "-LF-99ODys9mT9vPHR3D"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99Q4AaSiOFIdrMAe"
+        },
+        {
+            "name": "wisdom",
+            "current": 13,
+            "max": "",
+            "id": "-LF-99Q7ZtWvEa9m259v"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99RwC5hocnjBtiFy"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LF-99S18GGUiv4t-37o"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LF-99TpcJimUgZ8MTyZ"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99Trzrac-eE_CdBl"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99TuPskyBMzKD3nI"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99TwkB381PGo7EEJ"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99TxsNj_cp1JFxoW"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LF-99Tzwtm-y1cpXa_I"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 11,
+            "max": "",
+            "id": "-LF-99U5NnLff2nmGIpn"
+        },
+        {
+            "name": "charisma_base",
+            "current": "8",
+            "max": "",
+            "id": "-LF-9BL6LOdnzUyOKFNk"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LF-9BN-rEp8wEVmpUyV"
+        },
+        {
+            "name": "charisma",
+            "current": 8,
+            "max": "",
+            "id": "-LF-9BN297lg16cjhkJP"
+        },
+        {
+            "name": "charisma_mod",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BP8Rt5Sz1QDEwOB"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LF-9BPFdVEfqnwZPwUS"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BTROpbLXHAEUTrU"
+        },
+        {
+            "name": "deception_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BTWeplWTWDQNvyk"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BT_pKJy_rVp6-IJ"
+        },
+        {
+            "name": "performance_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BTdfoehN_LpkV4N"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LF-9BTf5b_d-Jm8h6h2"
+        },
+        {
+            "name": "background",
+            "current": "Sage",
+            "max": "",
+            "id": "-LF-9TuQWJcPrjKpizfg"
+        },
+        {
+            "name": "investigation_prof",
+            "current": "(@{pb}*@{investigation_type})",
+            "max": "",
+            "id": "-LF-9abk2UdssntF6eZ0"
+        },
+        {
+            "name": "religion_prof",
+            "current": "(@{pb}*@{religion_type})",
+            "max": "",
+            "id": "-LF-9ecXYH10F6oR2vo5"
+        },
+        {
+            "name": "arcana_prof",
+            "current": "(@{pb}*@{arcana_type})",
+            "max": "",
+            "id": "-LF-9foDPjh7bBKT1ySc"
+        },
+        {
+            "name": "history_prof",
+            "current": "(@{pb}*@{history_type})",
+            "max": "",
+            "id": "-LF-9gLUhCyErKzg2e8u"
+        },
+        {
+            "name": "intelligence_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LF-9nL850OcFVbwVikS"
+        },
+        {
+            "name": "wisdom_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LF-9nab5GbuQpOLrZPq"
+        },
+        {
+            "name": "speed",
+            "current": "25",
+            "max": "",
+            "id": "-LF-9nzM8Zo66Dj_mK02"
+        },
+        {
+            "name": "hp",
+            "current": "35",
+            "max": "20",
+            "id": "-LF-9rBUEGPRSJU1XMs2"
+        },
+        {
+            "name": "hit_dice",
+            "current": "1",
+            "max": 3,
+            "id": "-LF-AbLLfXidx4HJqGwg"
+        },
+        {
+            "name": "gp",
+            "current": "10",
+            "max": "",
+            "id": "-LF-B12vlqEr8FznSkpD"
+        },
+        {
+            "name": "repeating_proficiencies_-LF-B9zdH5rUEwHK6XJM_name",
+            "current": "common, auran, aarakocra, draconic, giant",
+            "max": "",
+            "id": "-LF-BBBilVdXljDorQM_"
+        },
+        {
+            "name": "repeating_proficiencies_-LF-B9zdH5rUEwHK6XJM_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-BS3Fv7IA4XcYE89B"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_atkname",
+            "current": "Talons",
+            "max": "",
+            "id": "-LF-CZwJhsD_z7Ozoc2q"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4]]}} {{dmg1type=slashing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LF-CZyqtQZI5sMct8KE"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4]]}} {{dmg1type=slashing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d4]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LF-CZytnaFxrbjOYGBC"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_atkbonus",
+            "current": "+2",
+            "max": "",
+            "id": "-LF-CZywhFNX2ALzFwkI"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_atkdmgtype",
+            "current": "1d4 slashing  ",
+            "max": "",
+            "id": "-LF-CZyxYu3WUtXLahWs"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 2[PROF]]]}} @{rtype}cs>@{atkcritrange} + 2[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LF-CZyzUN4d-KxJyvkI"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_dmgbase",
+            "current": "1d4",
+            "max": "",
+            "id": "-LF-ChI4TddWJ3PIr3jr"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_dmgtype",
+            "current": "slashing",
+            "max": "",
+            "id": "-LF-CjI0kv380vQewzqp"
+        },
+        {
+            "name": "repeating_attack_-LF-CXLE-qhya2DOZO0T_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-CjJCc1N2NWFUdBF5"
+        },
+        {
+            "name": "race",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9eg4FqoE6njRbJo"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_name",
+            "current": "Age",
+            "max": "",
+            "id": "-LF-D9euGe7yI6km11YI"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9f15NhI5kA3Dqyw"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9f4I3Y_LHfxb71N"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_description",
+            "current": "Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years.\n\n",
+            "max": "",
+            "id": "-LF-D9f9nyfhixGwAVA1"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9fD_0eHGQZZ1VP8"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_name",
+            "current": "Alignment",
+            "max": "",
+            "id": "-LF-D9fGHF6igt3mveeD"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9fKnga7CzAbjIny"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9fNyKJb9NzFZlCY"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_description",
+            "current": "Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic\n\n",
+            "max": "",
+            "id": "-LF-D9fRnqyWCs5vfeu7"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9fY0A26Q3JzspfX"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_name",
+            "current": "Size",
+            "max": "",
+            "id": "-LF-D9fbY5wuLgX1q4lH"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9fdO9LH25oxBaPh"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9fgxpQFBXHrCv7E"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_description",
+            "current": "Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.\n\n",
+            "max": "",
+            "id": "-LF-D9fqAcXrhpdCL6dg"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9ftz8MHP3w5mUdQ"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_name",
+            "current": "Flight",
+            "max": "",
+            "id": "-LF-D9fy0YetqYF-GH40"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9g0C1i33do_S_Zd"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9g4m46stGUzK2Cd"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_description",
+            "current": "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.\n\n",
+            "max": "",
+            "id": "-LF-D9gB_UwGmd2PpD1V"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9gEDMVQ8oXoRG5m"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_name",
+            "current": "Talons",
+            "max": "",
+            "id": "-LF-D9gImq60s7LCnX67"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9gMFXT-pX9oAHAu"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9gOqNpu3YvYZ4PK"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_description",
+            "current": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.\n\n",
+            "max": "",
+            "id": "-LF-D9gUZVnpkm8t2fJv"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9gYPbFACQblGIXK"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_name",
+            "current": "Language",
+            "max": "",
+            "id": "-LF-D9gb_rcInHQU7YD7"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_source",
+            "current": "Race",
+            "max": "",
+            "id": "-LF-D9gdh7J5_3md1yQo"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_source_type",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LF-D9gk6Pgo-YYRsj74"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_description",
+            "current": "You can speak, read, and write Common, Aarakocra, and Auran.\n\n",
+            "max": "",
+            "id": "-LF-D9gqWAIY67wp_Ghh"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-D9gtgiOebspSy-j4"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LF-D9myMbVNch7mc7I3"
+        },
+        {
+            "name": "global_damage_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9n8PwPCUJzUvvo-"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LF-D9nH4UxfjH3RyfBF"
+        },
+        {
+            "name": "hitdietype",
+            "current": 6,
+            "max": "20",
+            "id": "-LF-D9ohSqqzizuXTGNZ"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "@{intelligence_mod}+",
+            "max": "",
+            "id": "-LF-D9ooEp1-mAeNSLwO"
+        },
+        {
+            "name": "strength_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9ow2LfOHSzqfOr1"
+        },
+        {
+            "name": "dexterity_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9p3YxQrcVa4pr50"
+        },
+        {
+            "name": "constitution_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9pCMGKRgdJYFsLM"
+        },
+        {
+            "name": "charisma_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9pZMi7xqfcz_5IS"
+        },
+        {
+            "name": "class_resource_name",
+            "current": "",
+            "max": "",
+            "id": "-LF-D9pgacOrvr-l_M29"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LF-D9pmBe_FTnD2K_Bl"
+        },
+        {
+            "name": "level",
+            "current": 3,
+            "max": "",
+            "id": "-LF-D9ps4F0NRjmp9woD"
+        },
+        {
+            "name": "caster_level",
+            "current": 3,
+            "max": "",
+            "id": "-LF-D9q-PoLA5oSviqwf"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 4,
+            "max": "",
+            "id": "-LF-D9sxMHdLGKH96klU"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 2,
+            "max": "",
+            "id": "-LF-D9t4-ZX0AUAuBZoA"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tBDcbCJxOD4vAp"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tNwaYYk-QM5CpR"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tU7pUt9NNDY-_i"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tagh-VNbVlKIkg"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9thvS40PRoklUvG"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tqDhFgsyeoPJ0H"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LF-D9tyBdU03Oq8WkeD"
+        },
+        {
+            "name": "pb",
+            "current": "2",
+            "max": "",
+            "id": "-LF-D9u4nMmOqB5RakbI"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LF-D9uDiBDV5Owt3Q1J"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LF-D9uMnB-pCIoGKe9M"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LF-D9zxPNNA3jQaTIxL"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LF-DA-2sRsKTufWDggh"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LF-DA7W1RM1-Gag9CG7"
+        },
+        {
+            "name": "repeating_traits_-LF-D9et3YtQh9sp1S3L_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DL8UoH4mhfytoJxi"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fGHF6igt3mveeC_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DLQNX6FVUkqW-5JN"
+        },
+        {
+            "name": "repeating_traits_-LF-D9faDsX1CqWuft1Z_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DLdnDutr02dpBg6M"
+        },
+        {
+            "name": "repeating_traits_-LF-D9fxCaDSo6l0FmEs_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DLrSvMqwBanR9HX_"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gImq60s7LCnX66_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DM48jlYNBI-jLfT-"
+        },
+        {
+            "name": "repeating_traits_-LF-D9gbZrcInHQU7YD6_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DML2J_72fp_boF-W"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_name",
+            "current": "Arcane Recovery",
+            "max": "",
+            "id": "-LF-DXFzQHWnSD4Y2BxH"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LF-DXGAlqwHYbsNtR4T"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_source_type",
+            "current": "Wizard 1",
+            "max": "",
+            "id": "-LF-DXGGFVwAihIZcK1_"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_description",
+            "current": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.\n\nFor example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.\n\nYou can recover either a 2nd-level spell slot or two 1st-level spell slots.\n\n",
+            "max": "",
+            "id": "-LF-DXGMxNpYmh4AAjJF"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-DXGPWYHPef-zb2Gb"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_name",
+            "current": "Spellcasting",
+            "max": "",
+            "id": "-LF-DXGV4QhqVlr1e_mz"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LF-DXGauqiKAgzfeU4D"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_source_type",
+            "current": "Wizard 1",
+            "max": "",
+            "id": "-LF-DXGlC4z4EOofzmgc"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_description",
+            "current": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.\n\nCantrips At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.\n\nSpellbook At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.\n\nPreparing and Casting Spells The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.\n\nSpellcasting Ability Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier\n\nRitual Casting You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.\n\nSpellcasting Focus You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells.\n\nLearning Spells of 1st Level and Higher Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see \"Your Spellbook\").\n\nYour SpellbookThe spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.\n\nA spellbook doesn't contain cantrips.\n\nCopying a Spell into the Book. When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.\n\nCopying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.\n\nFor each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.\n\nA wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.\n\nReplacing the Book. You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.\n\nThe Book's Appearance. Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.\n\n",
+            "max": "",
+            "id": "-LF-DXGxp0TAXqYH9ig7"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-DXH-Mo0XLFIjbhEb"
+        },
+        {
+            "name": "base_level",
+            "current": "3",
+            "max": "",
+            "id": "-LF-DXP_P8IsF4aUpIWh"
+        },
+        {
+            "name": "class",
+            "current": "Wizard",
+            "max": "",
+            "id": "-LF-DXPnLPtstohrGXb6"
+        },
+        {
+            "name": "spell_attack_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LF-DXnt50ZTiT3raXHQ"
+        },
+        {
+            "name": "repeating_traits_-LF-DXFye86u2TI6Fwhp_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DZCmr1Z1CPthaSqh"
+        },
+        {
+            "name": "repeating_traits_-LF-DXGV4QhqVlr1eZmy_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LF-DZ_i31dZnT6YA3C6"
+        },
+        {
+            "name": "dexterity_bonus",
+            "current": "2",
+            "max": "",
+            "id": "-LF-DliLzNYVWTYhCHKL"
+        },
+        {
+            "name": "wisdom_bonus",
+            "current": "1",
+            "max": "",
+            "id": "-LF-Dmsvfnm76Vm8jFwK"
+        },
+        {
+            "name": "other_resource",
+            "current": "",
+            "max": "",
+            "id": "-LF-F-zuN54Y2TEbwGEd"
+        },
+        {
+            "name": "other_resource_name",
+            "current": "",
+            "max": "",
+            "id": "-LF-F00l-D91Axe8zFHX"
+        },
+        {
+            "name": "other_resource_itemid",
+            "current": "",
+            "max": "",
+            "id": "-LF-F00l-D91Axe8zFHY"
+        },
+        {
+            "name": "drop_category",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpbnQrCcPDr_pVLD"
+        },
+        {
+            "name": "drop_name",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpc1PcIP7RE7iYhc"
+        },
+        {
+            "name": "drop_content",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpcB-pEsYeBRwURA"
+        },
+        {
+            "name": "drop_damage",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpcJJt5PZcFRZBzK"
+        },
+        {
+            "name": "drop_damagetype",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpcU8uyF1HYiUcIJ"
+        },
+        {
+            "name": "drop_range",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpcgKAIqECxN1Qii"
+        },
+        {
+            "name": "drop_spellschool",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpcrlCgqTtgAJFgw"
+        },
+        {
+            "name": "drop_spellcastingtime",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpd-Aq063b4vVc5W"
+        },
+        {
+            "name": "drop_spelltarget",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpd8MLkyoyVswa_B"
+        },
+        {
+            "name": "drop_spellcomp",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpdIdt0awA1Mm-Sn"
+        },
+        {
+            "name": "drop_spellduration",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpdR9ffQJ11u9d41"
+        },
+        {
+            "name": "drop_spellsave",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpddHugX_CTJ_UC5"
+        },
+        {
+            "name": "drop_spellsavesuccess",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpdmgVc2s9W_xNAN"
+        },
+        {
+            "name": "drop_spellhldie",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpdvHDVrnZB_JB_o"
+        },
+        {
+            "name": "drop_spellhldietype",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpe4dPv-6CG2Vg9u"
+        },
+        {
+            "name": "drop_spelllevel",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpeFdTHfazRWR9Ga"
+        },
+        {
+            "name": "drop_weight",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpoAXS8OPqk4sMBc"
+        },
+        {
+            "name": "drop_properties",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpoG0QFKxoHiIDbl"
+        },
+        {
+            "name": "drop_modifiers",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpoMZdsRjrKdaNKj"
+        },
+        {
+            "name": "drop_itemtype",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpoZEAULKfqv1GTh"
+        },
+        {
+            "name": "drop_ac",
+            "current": "",
+            "max": "",
+            "id": "-LF-FposgWpA5KyCEBlk"
+        },
+        {
+            "name": "drop_actions",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpoyWcCaSPaCrtG6"
+        },
+        {
+            "name": "drop_legendary_actions",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpp3cPW9eduxQ66c"
+        },
+        {
+            "name": "drop_legendary_actions_desc",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpp9BnR0JAgnmQWH"
+        },
+        {
+            "name": "drop_reactions",
+            "current": "",
+            "max": "",
+            "id": "-LF-FppEGFeZCGiG_Xm4"
+        },
+        {
+            "name": "drop_traits",
+            "current": "",
+            "max": "",
+            "id": "-LF-FppKGidvPxX8pVwZ"
+        },
+        {
+            "name": "drop_attack_type",
+            "current": "",
+            "max": "",
+            "id": "-LF-FppQEDtx6N2cEFdT"
+        },
+        {
+            "name": "drop_damage2",
+            "current": "",
+            "max": "",
+            "id": "-LF-FppWnDGJx0p-Ibz1"
+        },
+        {
+            "name": "drop_damagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fppd-SGTUKvSjTq1"
+        },
+        {
+            "name": "drop_spellritualflag",
+            "current": "",
+            "max": "",
+            "id": "-LF-FppjdgcsSd5eJ2_O"
+        },
+        {
+            "name": "drop_spellcomp_materials",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpq9e9umaN41n8Sd"
+        },
+        {
+            "name": "drop_spellconcentrationflag",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpqEsAzUdF_wUJ-N"
+        },
+        {
+            "name": "drop_spellhealing",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpqOpU_QPKIOVaVG"
+        },
+        {
+            "name": "drop_spelldmgmod",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpqT0CRUpIjJ_I4X"
+        },
+        {
+            "name": "drop_spellhlbonus",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpquznUkipoQ-fHe"
+        },
+        {
+            "name": "drop_spell_damage_progression",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpr5rA3omuKRds5o"
+        },
+        {
+            "name": "drop_speed",
+            "current": "",
+            "max": "",
+            "id": "-LF-FprGETwmI13o7Nk_"
+        },
+        {
+            "name": "drop_str",
+            "current": "",
+            "max": "",
+            "id": "-LF-FprLXJ-JIPrntu-u"
+        },
+        {
+            "name": "drop_dex",
+            "current": "",
+            "max": "",
+            "id": "-LF-FprSAxC6D7wAF3M8"
+        },
+        {
+            "name": "drop_con",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpr_mXXu2AAdLIju"
+        },
+        {
+            "name": "drop_int",
+            "current": "",
+            "max": "",
+            "id": "-LF-FprjdSYWnNDDr30N"
+        },
+        {
+            "name": "drop_wis",
+            "current": "",
+            "max": "",
+            "id": "-LF-FprpuoUlJDo1dsF0"
+        },
+        {
+            "name": "drop_cha",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpryEnzGQNpr-x6Z"
+        },
+        {
+            "name": "drop_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fps6pwSh8EmhzVQ1"
+        },
+        {
+            "name": "drop_resistances",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpsBjAaMB4s_0MkP"
+        },
+        {
+            "name": "drop_immunities",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpsLUh3RgyoBYO3i"
+        },
+        {
+            "name": "drop_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpsSw4JJngtspAfH"
+        },
+        {
+            "name": "drop_languages",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpsoYf7aXxQzwuMr"
+        },
+        {
+            "name": "drop_challenge_rating",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpt-4ssSJdw5j43N"
+        },
+        {
+            "name": "drop_size",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpt4X7tNQ843YJD3"
+        },
+        {
+            "name": "drop_type",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptAc6AM777G1aHh"
+        },
+        {
+            "name": "drop_alignment",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptG8_Qnh0Ton6DJ"
+        },
+        {
+            "name": "drop_hp",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptOA9KdUtx6u7SY"
+        },
+        {
+            "name": "drop_saving_throws",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptUDg4JhcZosQP-"
+        },
+        {
+            "name": "drop_senses",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptaSBMeDfk2Hq0N"
+        },
+        {
+            "name": "drop_passive_perception",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fptf84RR72aZhmIC"
+        },
+        {
+            "name": "drop_skills",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptlO2xgbLA6nwrA"
+        },
+        {
+            "name": "drop_token_size",
+            "current": "",
+            "max": "",
+            "id": "-LF-FptrBhx5AL5EJ-xq"
+        },
+        {
+            "name": "monster_confirm_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LF-Fptzm4xd9slrk_va"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-FpvejTl4G0AUAKBq"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_spellid",
+            "current": "-LF-Fphag9FaRLMEWhEb",
+            "max": "",
+            "id": "-LF-Fpvyxxg0VoiJyRL1"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LF-FpwFjZZeiIZjGhcl"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atkname",
+            "current": "Burning Hands",
+            "max": "",
+            "id": "-LF-FpwVq3NSD0Q5008p"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-Fpwst4Zt7JYf53s4"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-LF-FpxG8-gTw74k4sqA"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmgbase",
+            "current": "3d6",
+            "max": "",
+            "id": "-LF-FpxZSvmcYNVlHDBt"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-LF-FpxsUOt9bJ_JQQyF"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmgtype",
+            "current": "Fire",
+            "max": "",
+            "id": "-LF-Fpy4Too-m1u3kCmA"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpyF_vLLI39HgUkc"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-LF-FpyPBtZRAlFodSwY"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-FpybF6jjfRdqmzlo"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpytNG-Fr9zMXRHs"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atkrange",
+            "current": "Self (15-foot cone)",
+            "max": "",
+            "id": "-LF-Fpz09b7bVygr6LEw"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_saveflag",
+            "current": "{{save=1}} {{saveattr=@{saveattr}}} {{savedesc=@{saveeffect}}} {{savedc=[[[[@{savedc}]][SAVE]]]}}",
+            "max": "",
+            "id": "-LF-FpzAxf8oar-OOMD0"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_saveattr",
+            "current": "Dexterity",
+            "max": "",
+            "id": "-LF-FpzIgXGP0gAsKCQG"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_saveeffect",
+            "current": "Half damage",
+            "max": "",
+            "id": "-LF-FpzRQAFi8p_1vLoH"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_hldmg",
+            "current": "{{hldmg=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d6]]}}",
+            "max": "",
+            "id": "-LF-Fpz_7pzb1BzPH8F8"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-LF-Fpzj2NqYfDxi1j8d"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-LF-FpzqyEkyZ7_nYd_2"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d6]]}} {{dmg1type=Fire }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LF-FqJSo4ILfJ6LVXcc"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d6]]}} {{dmg1type=Fire }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[3d6]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d6]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LF-FqJfqcZHqBIT7zVV"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atkbonus",
+            "current": "DC12",
+            "max": "",
+            "id": "-LF-FqJvs4CgQbaWLBC7"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_atkdmgtype",
+            "current": "3d6 Fire  ",
+            "max": "",
+            "id": "-LF-FqKA-WjpLfp43UEt"
+        },
+        {
+            "name": "repeating_attack_-LF-FpmWtvMk66qXAP7E_rollbase",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d6]]}} {{dmg1type=Fire }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LF-FqKMHMtQ3xl0REk3"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-LF-Fvrfkx7Ul77UCIkx"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellname",
+            "current": "Mage Hand",
+            "max": "",
+            "id": "-LF-Fvrp5YmzDx8Rwp4g"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellschool",
+            "current": "conjuration",
+            "max": "",
+            "id": "-LF-FvrzmM2UzobuB0V1"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LF-Fvs9yekWYdnHq7uq"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellrange",
+            "current": "30 feet",
+            "max": "",
+            "id": "-LF-FvsL8jQsFdCp6Dmu"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LF-FvsXYRfBwenWEtks"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spellduration",
+            "current": "1 minute",
+            "max": "",
+            "id": "-LF-Fvsi3CJJjvd2OB9c"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_spelldescription",
+            "current": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. \n\n You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. \n\n The hand can't attack, activate magical items, or carry more than 10 pounds.",
+            "max": "",
+            "id": "-LF-FvstDooDfAtZ6ELS"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-FvqrTSXIgSMWFjB4_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-Fvt3ifT-3hPdZcwD"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-LF-G2Cp19TGMwqVc-nM"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellname",
+            "current": "Light",
+            "max": "",
+            "id": "-LF-G2D4q371Cm5u8jKG"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-LF-G2DHgA5feXLGEOGe"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LF-G2DWWhFT_mb5R7AA"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-LF-G2DidYgcEQFjtbuR"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellcomp_s",
+            "current": "0",
+            "max": "",
+            "id": "-LF-G2Du23vcMxAPBu4o"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellcomp_materials",
+            "current": "A firefly or phosphorescent moss",
+            "max": "",
+            "id": "-LF-G2E5Bmxlr_SUmenl"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellduration",
+            "current": "1 hour",
+            "max": "",
+            "id": "-LF-G2EJhcvkhmcPOfX3"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spellsave",
+            "current": "Dexterity",
+            "max": "",
+            "id": "-LF-G2EUd5ZGPduz286O"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_spelldescription",
+            "current": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\n\nIf you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.",
+            "max": "",
+            "id": "-LF-G2EjJRlrnb8WYIEl"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF-G2AQXNXba32rrlTn_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF-G2EvIuCFBZCJqdsV"
+        },
+        {
+            "name": "experience",
+            "current": "0/1",
+            "max": "",
+            "id": "-LF-GC6iCmunsOo7IwZB"
+        },
+        {
+            "name": "personality_traits",
+            "current": "I'm used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.",
+            "max": "",
+            "id": "-LF-HuJPn-V0WdXiiseS"
+        },
+        {
+            "name": "ideals",
+            "current": "Knowledge. The path to power and self-improvement is through knowledge.",
+            "max": "",
+            "id": "-LF-HwR2rFZ8Qk-sFBMt"
+        },
+        {
+            "name": "bonds",
+            "current": "I've been searching my whole life for the answer to a certain question.",
+            "max": "",
+            "id": "-LF-HxdyuXFRza2XerVY"
+        },
+        {
+            "name": "flaws",
+            "current": "I am easily distracted by the promise of information.",
+            "max": "",
+            "id": "-LF-HyiwVqckmUwO1Zsz"
+        },
+        {
+            "name": "character_appearance",
+            "current": "An Aarakocra, seemingly of the owl variety. It resembles a snow owl, with fluffy plumage, and large talons. Wearing posh vestments, and loaded with supplies and scrolls, this person seems well-versed in survival and intellect. He is about five feet tall, eighty-five pounds, medium-sized, and 25 years of age.\n\nhttps://i.warosu.org/data/tg/img/0521/86/1489582990405.png\n",
+            "max": "",
+            "id": "-LF-IArJe2YTabbTa4ZI"
+        },
+        {
+            "name": "character_backstory",
+            "current": "Librarian: Qu has spend many restful nights watching over the hushed hallways of an expansive library. He is quite familiar with many tomes, making him quite knowledgeable.\n\nPersonal Goal: Qu has grown tired of the same library, and the same books, and faces, and knowledge, and scenery. Though proud of the assortment of tomes he watches over, it is obvious to him that his personal curiosities won't be answered in this setting.\n\nIn an effort to gain even more knowledge, perhaps learning secrets yet revealed, Qu ventures from the familiar plains of home; Determined to quench his thirst of knowledge, once and for all.\n\nAlignment: Chaotic Neutral. Spending many years studying many tomes has rendered him skeptical, and perhaps, unstable. Always thirsty for knowledge, Qu has made some questionable decisions to gain even more, though nothing to extraordinarily evil. A stolen report here, a misplaced tome there, and so on.",
+            "max": "",
+            "id": "-LF-INQkL47rKqwDcull"
+        },
+        {
+            "name": "options-flag-personality",
+            "current": "0",
+            "max": "",
+            "id": "-LF-IPUyuBBrBMzUFfDW"
+        },
+        {
+            "name": "options-flag-ideals",
+            "current": "0",
+            "max": "",
+            "id": "-LF-IPw4ucu6u19avGIH"
+        },
+        {
+            "name": "options-flag-bonds",
+            "current": "0",
+            "max": "",
+            "id": "-LF-IQBhUgsUXU8ImMiO"
+        },
+        {
+            "name": "options-flag-flaws",
+            "current": "0",
+            "max": "",
+            "id": "-LF-IQRGN8CGbo609gAx"
+        },
+        {
+            "name": "repeating_inventory_-LF-K0KlwJ1FoZZH1ZTk_itemname",
+            "current": "Spellbook",
+            "max": "",
+            "id": "-LF-K2HqynkyIX5xZPwe"
+        },
+        {
+            "name": "repeating_inventory_-LF-K2btPj3y6EODica3_itemname",
+            "current": "Common Clothes",
+            "max": "",
+            "id": "-LF-K8stu4D750_EyR2U"
+        },
+        {
+            "name": "repeating_inventory_-LF-K9ynslKRcbmrNdnr_itemname",
+            "current": "Dagger",
+            "max": "",
+            "id": "-LF-KAn48km8UUcpwsQq"
+        },
+        {
+            "name": "repeating_inventory_-LF-KBXQ4wJNb3WFCmcG_itemname",
+            "current": "Arcane Focus Crystal",
+            "max": "",
+            "id": "-LF-KCyc00_NwNSjCk8w"
+        },
+        {
+            "name": "repeating_inventory_-LF-KEURbbp2zXcfrAT9_itemname",
+            "current": "Explorer's Pack",
+            "max": "",
+            "id": "-LF-KFbqAmBmKnmOjr7q"
+        },
+        {
+            "name": "repeating_inventory_-LF-KQUJx1JTwoRy5J7F_itemname",
+            "current": "Sage's Pack",
+            "max": "",
+            "id": "-LF-KRQp2OAJYMojIo4O"
+        },
+        {
+            "name": "repeating_inventory_-LF-KQUJx1JTwoRy5J7F_itemweight",
+            "current": "5",
+            "max": "",
+            "id": "-LF-Kf_KCWfMHnu4vsqG"
+        },
+        {
+            "name": "repeating_inventory_-LF-KEURbbp2zXcfrAT9_itemweight",
+            "current": "50",
+            "max": "",
+            "id": "-LF-Knq3gJc944SGWBi_"
+        },
+        {
+            "name": "repeating_inventory_-LF-KBXQ4wJNb3WFCmcG_itemweight",
+            "current": "1",
+            "max": "",
+            "id": "-LF-KpWsRD-YAOk0Afys"
+        },
+        {
+            "name": "repeating_inventory_-LF-K9ynslKRcbmrNdnr_itemweight",
+            "current": "1",
+            "max": "",
+            "id": "-LF-KrBQJJ2FBuFhmKj1"
+        },
+        {
+            "name": "repeating_inventory_-LF-K2btPj3y6EODica3_itemweight",
+            "current": "3",
+            "max": "",
+            "id": "-LF-KsDAG6Y20gDwe9_z"
+        },
+        {
+            "name": "repeating_inventory_-LF-K0KlwJ1FoZZH1ZTk_itemweight",
+            "current": "3",
+            "max": "",
+            "id": "-LF-Kt6swXthhGs2paVq"
+        },
+        {
+            "name": "USECOLOR",
+            "current": "YES",
+            "max": "",
+            "id": "-LF-QgKcxaA-M4G4Rm_7"
+        },
+        {
+            "name": "USEBLOOD",
+            "current": "DEFAULT",
+            "max": "",
+            "id": "-LF-Qyz50p45qgpX4pxH"
+        },
+        {
+            "name": "inspiration",
+            "current": "0",
+            "max": "",
+            "id": "-LF-l3Q2OD4dOd37cvLH"
+        },
+        {
+            "name": "lvl1_slots_expended",
+            "current": 0,
+            "max": "",
+            "id": "-LF0Bn6iH17M6JCsg8Fp"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-LF9qs0ybzLjXuzjs5uT"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellname",
+            "current": "Fire Bolt",
+            "max": "",
+            "id": "-LF9qt6Nvw4taP5fXZ2A"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellcastingtime",
+            "current": "action",
+            "max": "",
+            "id": "-LF9r1UP1q0-gsFHxjS-"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellrange",
+            "current": "120 Feet",
+            "max": "",
+            "id": "-LF9r2hQtpJ7X6cUEaUA"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LF9r2icyjDZZcsfklUg"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-LF9r8qooDV_NgwH5y3c"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spelldescription",
+            "current": "Make a ranged spell attack. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+            "max": "",
+            "id": "-LF9rCGZ9qoYLrez11F5"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF9rCHY2-YdPrcSMZ31"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_spellathigherlevels",
+            "current": "This spell's damage increases by 1d10 when you reach 5th, 11th, and 17th level.",
+            "max": "",
+            "id": "-LF9rNC5UgcZHg9NxOwr"
+        },
+        {
+            "name": "repeating_spell-cantrip_-LF9qrHkmJPj3kwLv3h3_rollcontent",
+            "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+            "max": "",
+            "id": "-LF9rNFQuHkbWFA92tk5"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellname",
+            "current": "Magic Missile",
+            "max": "",
+            "id": "-LF9rZX6fM0u1lWEZYPc"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-LF9rbs3g-SfnWtHir0j"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellcastingtime",
+            "current": "action",
+            "max": "",
+            "id": "-LF9re3_VFp8dUkS4ytQ"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellrange",
+            "current": "120 Feet",
+            "max": "",
+            "id": "-LF9rfVlEAY_XNcN_5ne"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LF9rfXE098KxpheJyUJ"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellduration",
+            "current": "Instantaenous",
+            "max": "",
+            "id": "-LF9rhDT_dbwDJpo5WL3"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spelldescription",
+            "current": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
+            "max": "",
+            "id": "-LF9riuk2b2QMc9YqiH7"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.",
+            "max": "",
+            "id": "-LF9rkowFQUVzhFXexRI"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LF9rkqFYyuCBn5PJRBQ"
+        },
+        {
+            "name": "repeating_spell-1_-LF9rY3ZnA5xApryoMHW_rollcontent",
+            "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?|Level 1,1|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+            "max": "",
+            "id": "-LF9rks_VrLkQQo0WL0S"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-RGiYAxc01cMdG5r"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellname",
+            "current": "Magic Missile",
+            "max": "",
+            "id": "-LFA-RGnE8O-JkPYyIXQ"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-LFA-RGtQx50jXTaiKR7"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA-RGwdf_QwQt7xKgd"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellrange",
+            "current": "120 ft",
+            "max": "",
+            "id": "-LFA-RH-2Q-ZMU1qYl39"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RH3McSohGP78GZp"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-LFA-RH5yYmx-dJhYUNW"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-LFA-RH8dSq72biDnUt8"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelldamage",
+            "current": "3d4 + 3",
+            "max": "",
+            "id": "-LFA-RHD1Kn58XP2a2Nr"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelldamagetype",
+            "current": "Force",
+            "max": "",
+            "id": "-LFA-RHIQhqVzQ4CtJkB"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellhldie",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-RHKdBZi8sCDL4ug"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellhldietype",
+            "current": "d4",
+            "max": "",
+            "id": "-LFA-RHMd2pa0X5B5_4i"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellhlbonus",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-RHP4dmcLU4luEK6"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelldescription",
+            "current": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.",
+            "max": "",
+            "id": "-LFA-RHSRlPRITIWPc-A"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.",
+            "max": "",
+            "id": "-LFA-RHTLmIbuG0GD-by"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RHWBAswnBBfU7qg"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellattackid",
+            "current": "-LFA-RHYZOPnZlrZTD4C",
+            "max": "",
+            "id": "-LFA-RHr6c50qmFddN_B"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_rollcontent",
+            "current": "%{-LE3ONLc2MAnLkIZRr1b|repeating_attack_-LFA-RHYZOPnZlrZTD4C_attack}",
+            "max": "",
+            "id": "-LFA-RHtMRZDXHShiX9F"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RIrLJRbbKCmwAkS"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_spellid",
+            "current": "-LFA-RGKS61VaGI2S2Jb",
+            "max": "",
+            "id": "-LFA-RIur6UhHfzpjuVN"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-RIwEo2L67QxcdMx"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atkname",
+            "current": "Magic Missile",
+            "max": "",
+            "id": "-LFA-RIzDgxtpVdsV3H9"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RJ0LJF_TwnI6DrB"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-LFA-RJ2XSgt7d4zw4gv"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmgbase",
+            "current": "3d4 + 3",
+            "max": "",
+            "id": "-LFA-RJ4KxMnEA8mTVPW"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RJ6IlgF2R1iDQ5U"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmgtype",
+            "current": "Force",
+            "max": "",
+            "id": "-LFA-RJ98L-XLbXkPjxl"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-LFA-RJBcoRVsTLSMGhI"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-LFA-RJCRvfKlRhgZ996"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RJFNf9IDULCPJn8"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-LFA-RJIpp2CGoux8X6l"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atkrange",
+            "current": "120 ft",
+            "max": "",
+            "id": "-LFA-RJKziDJpRlxm3Yc"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-RJMEnejPgsJHgHH"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-LFA-RJPovB6WDMpIAfw"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_hldmg",
+            "current": "{{hldmg=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d4+(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})]]}}",
+            "max": "",
+            "id": "-LFA-RJSTskTQJBWqxty"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-LFA-RJVCm0iq6UzVziv"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-LFA-RJWSWn2IrJzA0ac"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d4 + 3]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LFA-RKH7haRI-y_OVI5"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d4 + 3]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[3d4 + 3]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d4+(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LFA-RKKZZBuibaJruSk"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atkbonus",
+            "current": "-",
+            "max": "",
+            "id": "-LFA-RKMCXLDmLGnL72C"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_atkdmgtype",
+            "current": "3d4 + 3 Force  ",
+            "max": "",
+            "id": "-LFA-RKPW-y9eNJMjkTW"
+        },
+        {
+            "name": "repeating_attack_-LFA-RHYZOPnZlrZTD4C_rollbase",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[3d4 + 3]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LFA-RKQJz8WCA55GZiU"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-eSkxhl3T1uQ1FE8"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellname",
+            "current": "Thunderwave",
+            "max": "",
+            "id": "-LFA-eSomZEwnTskIghn"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-LFA-eSsgekhjoigf-9R"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA-eSvR-bwRd56BcQB"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA-eSxKCMsuXl9DAsf"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelltarget",
+            "current": "Each creature in a 15-foot cube originating from you",
+            "max": "",
+            "id": "-LFA-eSzm4G5Jo0TGchL"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eT1bpD66Jz9DED_"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-LFA-eT5XDyq1zavpts9"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-LFA-eT9IL7HmvHyESof"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelldamage",
+            "current": "2d8",
+            "max": "",
+            "id": "-LFA-eTBuGdUUriogU-D"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelldamagetype",
+            "current": "Thunder",
+            "max": "",
+            "id": "-LFA-eTD1CjcAcExFHI-"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellsave",
+            "current": "Constitution",
+            "max": "",
+            "id": "-LFA-eTG_mvp8OV0K57A"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellsavesuccess",
+            "current": "Half damage and not pushed",
+            "max": "",
+            "id": "-LFA-eTJVAmcc6y0GFwC"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellhldie",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-eTNAyyBzljugFjH"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellhldietype",
+            "current": "d8",
+            "max": "",
+            "id": "-LFA-eTQcvLReHqQr8an"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelldescription",
+            "current": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.\n\nIn addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.",
+            "max": "",
+            "id": "-LFA-eTTaAPybDPZ8Jgx"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+            "max": "",
+            "id": "-LFA-eTVgd8m773bBHzk"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eTXBDZbXPqM4bqK"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spellattackid",
+            "current": "-LFA-eTZ6RcY-V6IIVXo",
+            "max": "",
+            "id": "-LFA-eThY9VV56L5vmfK"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_rollcontent",
+            "current": "%{-LE3ONLc2MAnLkIZRr1b|repeating_attack_-LFA-eTZ6RcY-V6IIVXo_attack}",
+            "max": "",
+            "id": "-LFA-eTjOJ21VgdVZkss"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eUQ1_Y-IE5XGNBN"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_spellid",
+            "current": "-LFA-eSI60dlxcZXKgjg",
+            "max": "",
+            "id": "-LFA-eUUB1-iuVJBwiRC"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA-eUV8AwpQ4WFcfwN"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atkname",
+            "current": "Thunderwave",
+            "max": "",
+            "id": "-LFA-eU_zzSw5G8-6Gr8"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eUcKHmSfnnvW8up"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-LFA-eUdtpIood1l5LHq"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmgbase",
+            "current": "2d8",
+            "max": "",
+            "id": "-LFA-eUfVO0OUuxAd4S3"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eUiTmgq0xolWLUq"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmgtype",
+            "current": "Thunder",
+            "max": "",
+            "id": "-LFA-eUlKzdd4-6H1Frw"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-LFA-eUpRQnmmBOBh5Ke"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-LFA-eUqX4gJdoSOUZWb"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA-eUsL_BD5GiSmsX_"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-LFA-eUuLPV1alYVZgfR"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atkrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA-eUwcgKhQUpxydXg"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_saveflag",
+            "current": "{{save=1}} {{saveattr=@{saveattr}}} {{savedesc=@{saveeffect}}} {{savedc=[[[[@{savedc}]][SAVE]]]}}",
+            "max": "",
+            "id": "-LFA-eUyEDOnc7sGUW9l"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_saveattr",
+            "current": "Constitution",
+            "max": "",
+            "id": "-LFA-eV2Z8RR4tbT6FYQ"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_saveeffect",
+            "current": "Half damage and not pushed",
+            "max": "",
+            "id": "-LFA-eV47nvBYmUCs45o"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_hldmg",
+            "current": "{{hldmg=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}}",
+            "max": "",
+            "id": "-LFA-eV6FLQhuNOoBD27"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-LFA-eV8_LnY2VfPiSas"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-LFA-eVALlsmQwyLeheI"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[2d8]]}} {{dmg1type=Thunder }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LFA-eW5DVQ4g2RlLpjn"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[2d8]]}} {{dmg1type=Thunder }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[2d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(1*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LFA-eW8pYYqqbPygSRN"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atkbonus",
+            "current": "DC12",
+            "max": "",
+            "id": "-LFA-eWB-ljBq7HipRoW"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_atkdmgtype",
+            "current": "2d8 Thunder  ",
+            "max": "",
+            "id": "-LFA-eWFhSwugf6cv4MW"
+        },
+        {
+            "name": "repeating_attack_-LFA-eTZ6RcY-V6IIVXo_rollbase",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[2d8]]}} {{dmg1type=Thunder }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LFA-eWHtN-uzAH92pr_"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA03IdkjxKZoKslI6Z"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellname",
+            "current": "Comprehend Languages",
+            "max": "",
+            "id": "-LFA03Ifnzgh_gHIVWnw"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellritual",
+            "current": "{{ritual=1}}",
+            "max": "",
+            "id": "-LFA03Ii4BSySsauNqHv"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellschool",
+            "current": "divination",
+            "max": "",
+            "id": "-LFA03ImzE1CbQCv8zqF"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA03InKIsji8lJhH83"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA03Iq7zSRPUVzSEQz"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellcomp_materials",
+            "current": "A pinch of soot and salt",
+            "max": "",
+            "id": "-LFA03ItrpDukO7lF7wt"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spellduration",
+            "current": "1 hour",
+            "max": "",
+            "id": "-LFA03IvQoDoofI_tDam"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_spelldescription",
+            "current": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language.",
+            "max": "",
+            "id": "-LFA03IzT_1ih8zVnoV6"
+        },
+        {
+            "name": "repeating_spell-1_-LFA03IP8ceZGZqJawZk_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA03J02Mb3HchUS_qd"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA05avNLxa6mWIW9ed"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellname",
+            "current": "Detect Magic",
+            "max": "",
+            "id": "-LFA05ayzllxyfMIIOX1"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellritual",
+            "current": "{{ritual=1}}",
+            "max": "",
+            "id": "-LFA05b-lbhA1rh9ofVI"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellschool",
+            "current": "divination",
+            "max": "",
+            "id": "-LFA05b3L4CCYUzaNVby"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA05b4fOHFOXb1SitX"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellrange",
+            "current": "Self (30 ft)",
+            "max": "",
+            "id": "-LFA05bAAs-VwnhCqPEk"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA05bDunfVN0FtogmG"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-LFA05bFhWkupafDQy9n"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spellduration",
+            "current": "Up to 10 minutes",
+            "max": "",
+            "id": "-LFA05bHF_efOjc733PJ"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_spelldescription",
+            "current": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.\n\nThe spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+            "max": "",
+            "id": "-LFA05bKq6qorWS8bRex"
+        },
+        {
+            "name": "repeating_spell-1_-LFA05ai1fdB5bcthzow_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA05bM0_pj-yqluvpd"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA08kbS6s4UkbCaejK"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellname",
+            "current": "Expeditious Retreat",
+            "max": "",
+            "id": "-LFA08kenk1exgyxmom6"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellschool",
+            "current": "transmutation",
+            "max": "",
+            "id": "-LFA08khlDfCf-ZNZwpg"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellcastingtime",
+            "current": "1 bonus action",
+            "max": "",
+            "id": "-LFA08kjXEGNUm7kW1dU"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA08kn1h5JOFdMmDwD"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA08kqcxItKM-n_Cba"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-LFA08ktUU6n5OMC_-8h"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spellduration",
+            "current": "Up to 10 minutes",
+            "max": "",
+            "id": "-LFA08kvZU-XuTKOP8FS"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_spelldescription",
+            "current": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.",
+            "max": "",
+            "id": "-LFA08kx4RVy7FiW6F8X"
+        },
+        {
+            "name": "repeating_spell-1_-LFA08kMNSysDnX4EPar_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA08l-0IFWfZ_X3oM1"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA0BZJI2Fc9mEybcja"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellname",
+            "current": "Alarm",
+            "max": "",
+            "id": "-LFA0BZMT1lOST4bITJF"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellritual",
+            "current": "{{ritual=1}}",
+            "max": "",
+            "id": "-LFA0BZOd6FOLfBuRqCU"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellschool",
+            "current": "abjuration",
+            "max": "",
+            "id": "-LFA0BZTgG2UkZwE8QuW"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellcastingtime",
+            "current": "1 minute",
+            "max": "",
+            "id": "-LFA0BZW4nTnFONkOW9Z"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellrange",
+            "current": "30 ft",
+            "max": "",
+            "id": "-LFA0BZZWmC6_WtIg4hX"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellcomp_materials",
+            "current": "A tiny bell and a piece of fine silver wire",
+            "max": "",
+            "id": "-LFA0BZb8bdGyh-SZ5qW"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spellduration",
+            "current": "8 hours",
+            "max": "",
+            "id": "-LFA0BZeGlhax-8By00q"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_spelldescription",
+            "current": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\n\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\n\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+            "max": "",
+            "id": "-LFA0BZiqqLRD2tFZGJu"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0BZ43XOLyHRgg1PZ_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0BZl86dbm0K0_4oj"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA0MzaG66IEaTVUSQY"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellname",
+            "current": "Mage Armor",
+            "max": "",
+            "id": "-LFA0Mzgcupe4oGhKrbC"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellschool",
+            "current": "abjuration",
+            "max": "",
+            "id": "-LFA0Mzj7TyURG9EStyj"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA0Mznfjjr0H3CMDuE"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-LFA0MzpZrMrYBqtVI5K"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellcomp_materials",
+            "current": "A piece of cured leather",
+            "max": "",
+            "id": "-LFA0MztoN4R4qoawGW4"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spellduration",
+            "current": "8 hours",
+            "max": "",
+            "id": "-LFA0Mzv3yNXI80R2xqx"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_spelldescription",
+            "current": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.",
+            "max": "",
+            "id": "-LFA0MzxnZslCFJDFB_O"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0MzI3a04G5zeeCLi_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0N-0Tkpoem4f_FZy"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-LFA0eu32L-zck9un0gh"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellname",
+            "current": "Shield",
+            "max": "",
+            "id": "-LFA0eu8KHoLUPn5-JfE"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellschool",
+            "current": "abjuration",
+            "max": "",
+            "id": "-LFA0euBGPNlGnEaIq6U"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellcastingtime",
+            "current": "1 reaction",
+            "max": "",
+            "id": "-LFA0euDEIspK8iVwmbh"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA0euGqIbzCd6vWFaz"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0euIW3XP19Fd2eJv"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spellduration",
+            "current": "1 round",
+            "max": "",
+            "id": "-LFA0euKlTCA_1svCJnS"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_spelldescription",
+            "current": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+            "max": "",
+            "id": "-LFA0euOINJKPJoCvZra"
+        },
+        {
+            "name": "repeating_spell-1_-LFA0etiFSDTyZN0lZsw_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0euQ97fRHmMA2km7"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spelllevel",
+            "current": "2",
+            "max": "",
+            "id": "-LFA0g2ftObF-HlIzMMd"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellname",
+            "current": "Mirror Image",
+            "max": "",
+            "id": "-LFA0g2i31Y0hhMn1lH5"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellschool",
+            "current": "illusion",
+            "max": "",
+            "id": "-LFA0g2lgIDPsyGS7rd8"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-LFA0g2n0C2anm2ldetq"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA0g2qADzXYRjEZt0H"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0g2vx83NRdofCR5H"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spellduration",
+            "current": "1 minute",
+            "max": "",
+            "id": "-LFA0g2y67KpWOtYwnJ7"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_spelldescription",
+            "current": "Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.\n\nEach time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\n\nIf you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\n\nA duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
+            "max": "",
+            "id": "-LFA0g30796exAsLKqqd"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0g2NtBX69mZ6tFQ0_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0g33KzbxSKlONaf_"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spelllevel",
+            "current": "2",
+            "max": "",
+            "id": "-LFA0l59-2cRCg12wee_"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellname",
+            "current": "Misty Step",
+            "max": "",
+            "id": "-LFA0l5CouzgT4pOLD17"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellschool",
+            "current": "conjuration",
+            "max": "",
+            "id": "-LFA0l5G0dc7aKmu60pw"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellcastingtime",
+            "current": "1 bonus action",
+            "max": "",
+            "id": "-LFA0l5IFBDkDRiNV9K6"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-LFA0l5LvI3gQchl3_we"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellcomp_s",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0l5NNbXFKnD9IxAk"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0l5QxmK6kS2lKelT"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-LFA0l5SUvDRYz-E6rUz"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_spelldescription",
+            "current": "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+            "max": "",
+            "id": "-LFA0l5UFwsuHrbbHusw"
+        },
+        {
+            "name": "repeating_spell-2_-LFA0l4qITEwmvl1VSJj_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LFA0l5XFvDvqNr1RIfc"
+        },
+        {
+            "name": "version",
+            "current": "2.7",
+            "max": "",
+            "id": "-LHGA6IMEZY83EOTqtmv"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LHGA6Lg7ZpuaRqN9iBi"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-LHGA6NEqBgiIjM1gZkH"
+        },
+        {
+            "name": "class_display",
+            "current": "Wizard 3",
+            "max": "",
+            "id": "-LHGA72GTNl0Bxm8z9al"
+        },
+        {
+            "name": "race_display",
+            "current": "Aarakocra",
+            "max": "",
+            "id": "-LHGA72JiC60wEv1e4yJ"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spellname",
+            "current": "Burning Hands",
+            "max": "",
+            "id": "-LHGA7HayRxuRz_cIpVs"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spellrange",
+            "current": "Self (15-foot cone)",
+            "max": "",
+            "id": "-LHGA7Hd8MyJWDNpjIck"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spelldamage",
+            "current": "3d6",
+            "max": "",
+            "id": "-LHGA7Hf2IX-HPJu3CZw"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spelldamagetype",
+            "current": "Fire",
+            "max": "",
+            "id": "-LHGA7Hi8VrSZapPvWLo"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spelldamage2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7Hk8ux-JStu2bC-"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spelldamagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7HltXtUtWhGD2Q_"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spellsave",
+            "current": "Dexterity",
+            "max": "",
+            "id": "-LHGA7HnwSeCEzfrctyK"
+        },
+        {
+            "name": "repeating_spell-1_-LF-Fphag9FaRLMEWhEb_spellsavesuccess",
+            "current": "Half damage",
+            "max": "",
+            "id": "-LHGA7HpHltAzZlvlPnZ"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelldamage2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7HrkqPae6gy_bv7"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spelldamagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7HtRF6U9voscGOW"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellsave",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7Hup_LWD-WaPHCX"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-RGKS61VaGI2S2Jb_spellsavesuccess",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7HvVM18j4Yo3-B9"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelldamage2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7Hx3m28CVzUxvTo"
+        },
+        {
+            "name": "repeating_spell-1_-LFA-eSI60dlxcZXKgjg_spelldamagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LHGA7HyD2Cu1vnCrFcv"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LNqu7cdah6M319I5k7Z"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LNqu7f2bCHcwJiHQn1W"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LNqu7fOReILJGvnsGIX"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LNqu7fWw0Y-yT22-my0"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LNqu7gXPXaV4Dl1PFmt"
+        }
+    ],
+    "abilities": []
+}
