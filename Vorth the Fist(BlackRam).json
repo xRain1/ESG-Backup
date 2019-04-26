@@ -1,0 +1,3207 @@
+{
+    "schema_version": 2,
+    "oldId": "-LCEVzdX2f4CiP6E8PiJ",
+    "name": "Vorth the Fist(BlackRam)",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/53706600/dbLOe4lBwWtzap2cMmESdA/med.png?1526065049",
+    "bio": "",
+    "gmnotes": "Level%204%20-%20Human%20Determination%20%28+1%20DEX%29",
+    "defaulttoken": "{\"left\":2275,\"top\":1785,\"width\":70,\"height\":70,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/53706600/dbLOe4lBwWtzap2cMmESdA/med.png?1526065049\",\"page_id\":\"-LCFy_tW_Wyn2pCNeC8V\",\"layer\":\"objects\",\"name\":\"Vorth\",\"represents\":\"-LCEVzdX2f4CiP6E8PiJ\",\"bar1_value\":31,\"bar1_max\":31,\"bar1_link\":\"-LCF_1_Agmo0CIbTilzQ\",\"bar2_value\":16,\"bar2_link\":\"-LCFW0kTdzFfB0shiQzG\",\"bar3_value\":12,\"bar3_link\":\"-LCFTjZ_HOM6gm1YUHPp\",\"aura1_radius\":0.63,\"aura1_color\":\"#05ff00\",\"aura2_radius\":0.034999999999999996,\"aura2_color\":\"#2a8c9b\",\"showname\":true,\"showplayers_name\":true,\"showplayers_bar1\":true,\"showplayers_aura1\":true,\"showplayers_aura2\":true,\"light_radius\":\"60\",\"light_dimradius\":\"-5\",\"light_hassight\":true,\"lastmove\":\"2275,1645\"}",
+    "tags": "[]",
+    "controlledby": "-LCCN7lYJfNb1F9_ao9R",
+    "inplayerjournals": "-LCCN7lYJfNb1F9_ao9R",
+    "attribs": [
+        {
+            "name": "dtype",
+            "current": "pick",
+            "max": "",
+            "id": "-LCEVzf6Y9aFbar53tZ7"
+        },
+        {
+            "name": "init_tiebreaker",
+            "current": "@{dexterity}/100",
+            "max": "",
+            "id": "-LCEVzf7qACXDW-uO2kZ"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzf7qACXDW-uO2k_"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzf7qACXDW-uO2ka"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzf7qACXDW-uO2kb"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzf8pBfTjBO8XmbS"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-LCEVzf8pBfTjBO8XmbT"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-LCEVzf8pBfTjBO8XmbU"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 5.2,
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnE"
+        },
+        {
+            "name": "npcspell_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnF"
+        },
+        {
+            "name": "missing_info",
+            "current": 0,
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnG"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_description",
+            "current": "[[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]][[4d6d1]]\n\nThese numbers may be arranged in any order.\nIf you dont like these stats you may do 27-point buy with this calculator: http://1-dot-encounter-planner.appspot.com/point-buy-calculator.html",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnH"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnI"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnJ"
+        },
+        {
+            "name": "repeating_traits_-LCC8R8enCYcAsYay75O_name",
+            "current": "Link this to chat =====>",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnK"
+        },
+        {
+            "name": "tab",
+            "current": "core",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnL"
+        },
+        {
+            "name": "rtype",
+            "current": "{{query=1}} ?{Advantage?|Normal Roll,&#123&#123normal=1&#125&#125 &#123&#123r2=[[0d20|Advantage,&#123&#123advantage=1&#125&#125 &#123&#123r2=[[@{d20}|Disadvantage,&#123&#123disadvantage=1&#125&#125 &#123&#123r2=[[@{d20}}",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnM"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnN"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_name",
+            "current": "Follow these instructions",
+            "max": "",
+            "id": "-LCEVzf9KQemKCpyGCnO"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_description",
+            "current": "Make a token on http://rolladvantage.com/tokenstamp/ upload the token as your character image, and change the character name with this format:\n\nPC Name (Game ID)\n\nThis is so the character can be assigned to you and a token can be made even while you are offline. if you fail to follow these instructions the character will eventually get deleted.",
+            "max": "",
+            "id": "-LCEVzfAbzvcq-KuTd2I"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCEVzfAbzvcq-KuTd2J"
+        },
+        {
+            "name": "class",
+            "current": "Monk",
+            "max": "",
+            "id": "-LCFTj-rbXru2XBRCe02"
+        },
+        {
+            "name": "hitdietype",
+            "current": 8,
+            "max": "",
+            "id": "-LCFTj8OaxbHILTXXtb0"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "@{wisdom_mod}+",
+            "max": "",
+            "id": "-LCFTj8_qGIFpR8Izy5e"
+        },
+        {
+            "name": "strength_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCFTj8iVOKwnzfzONaN"
+        },
+        {
+            "name": "dexterity_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCFTj8vvIQ6WO9BWKn2"
+        },
+        {
+            "name": "constitution_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTj943D2wwLvLuGCT"
+        },
+        {
+            "name": "intelligence_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTj9FRC-S1M2YpEqr"
+        },
+        {
+            "name": "wisdom_save_prof",
+            "current": "(@{pb})",
+            "max": "",
+            "id": "-LCFTj9PMp6PrQmHFWh_"
+        },
+        {
+            "name": "charisma_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTj9XJAdIGDtfw2y1"
+        },
+        {
+            "name": "class_resource_name",
+            "current": "Ki",
+            "max": "",
+            "id": "-LCFTj9ihf9pssUF4HrU"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LCFTj9tugkoL1c5c7d7"
+        },
+        {
+            "name": "level",
+            "current": 8,
+            "max": "",
+            "id": "-LCFTjA-oWjnHUyZrCh2"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjA9XFL7L3IctfHH"
+        },
+        {
+            "name": "hit_dice",
+            "current": "8",
+            "max": 8,
+            "id": "-LCFTjAIKTCl3i8ix0nL"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjFh9-peoxfWKZlf"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjG3yrPbfns73BdS"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjGKwnq6Lw_aHEgU"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjGYs9zMhDD66qlo"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjGjLARcjuD8AeIb"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjH1izkke1NPoizB"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjHEH7dOLz-UEO8d"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjHRQ6cl_7nCRAjZ"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjHedZCszRpjXQaQ"
+        },
+        {
+            "name": "pb",
+            "current": "3",
+            "max": "",
+            "id": "-LCFTjI85yJsBeGC1E02"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LCFTjIQ3OsMClAw3XrA"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LCFTjIbOoMHSWBpuBio"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": 7,
+            "max": "",
+            "id": "-LCFTjK5gl-fC-jx4ojd"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": 15,
+            "max": "",
+            "id": "-LCFTjKH-CoKEFQ0eY9c"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LCFTjKQLm9cuW1eWQ3r"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LCFTjKYmXHlAFyvK1n5"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjLFcer2Ccj6WAZ4"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 8,
+            "max": "",
+            "id": "-LCFTjLcVBn4c0drcQkx"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LCFTjLpLEArfpHA-gUz"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjM4jlwSNpHdYTqh"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 7,
+            "max": "",
+            "id": "-LCFTjMFZfGm3QRGEtI4"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjMQWfzmvx6QgpZw"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjMb-Jk58fQJpC6-"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjNjaIIV3Q42iAq4"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 8,
+            "max": "",
+            "id": "-LCFTjNxrjc7Qdy3que1"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LCFTjO4WnLVmqXmOzDt"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 8,
+            "max": "",
+            "id": "-LCFTjOEUm8LiImgHC0f"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjOOlTbDUvOqR_Tk"
+        },
+        {
+            "name": "history_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjOX_124QHTpdsml"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjOhII0hOzP1Ixll"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjOrkpqOOwq6274Z"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjP3OlKJgyFvxwsB"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjPBGVg5SWNZbyYz"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjPN14BrX0RGGqXR"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjPaY14dNmvuYtDN"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LCFTjPjv2zbiU5jGX6z"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 7,
+            "max": "",
+            "id": "-LCFTjPu-iv5u7OI2CFG"
+        },
+        {
+            "name": "deception_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjQ27Osf5gknHXtI"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjQBJBZLVyCyJpFM"
+        },
+        {
+            "name": "performance_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjQK_KL9OLfpBd-2"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LCFTjQUMVR1XlrFiFj_"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 14,
+            "max": "",
+            "id": "-LCFTjZ_HOM6gm1YUHPp"
+        },
+        {
+            "name": "race",
+            "current": "Human",
+            "max": "",
+            "id": "-LCFU7bOIRtl_31Rlenq"
+        },
+        {
+            "name": "alignment",
+            "current": "CG",
+            "max": "",
+            "id": "-LCFUAHrY04wgr6rV2gY"
+        },
+        {
+            "name": "experience",
+            "current": "2/8",
+            "max": "",
+            "id": "-LCFUAoizF4tmz5_Sew7"
+        },
+        {
+            "name": "strength_base",
+            "current": "13",
+            "max": "",
+            "id": "-LCFW-y2KfI28nep_Wxw"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW0-zVQN0qf537bYj"
+        },
+        {
+            "name": "strength",
+            "current": 13,
+            "max": "",
+            "id": "-LCFW0095g050ZsjDF4x"
+        },
+        {
+            "name": "strength_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LCFW047Tm7LVU3QK-Qa"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW04ItsiwXVFSRwvc"
+        },
+        {
+            "name": "weighttotal",
+            "current": 54.7,
+            "max": "",
+            "id": "-LCFW05AQwYHuaKiLuur"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LCFW05KCmme5k6-AVbT"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "18",
+            "max": "",
+            "id": "-LCFW0Y4hI0mp9tVUZu9"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LCFW0_fE_o72pIkC30z"
+        },
+        {
+            "name": "dexterity",
+            "current": 20,
+            "max": "",
+            "id": "-LCFW0_uSw-ub-MMQURn"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 5,
+            "max": "",
+            "id": "-LCFW0fIp9ud9gbOfWzB"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW0fWfL2VSKdgq0Fg"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LCFW0k7nfv-JlBrjQRf"
+        },
+        {
+            "name": "armorwarning",
+            "current": "0",
+            "max": "",
+            "id": "-LCFW0kHC2isPVqQsvS2"
+        },
+        {
+            "name": "ac",
+            "current": 20,
+            "max": "",
+            "id": "-LCFW0kTdzFfB0shiQzG"
+        },
+        {
+            "name": "constitution_base",
+            "current": "14",
+            "max": "",
+            "id": "-LCFW11do19jXvMKu0yw"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW14C2DbB9vpUHRgO"
+        },
+        {
+            "name": "constitution",
+            "current": 14,
+            "max": "",
+            "id": "-LCFW14M_LDh_SdHdF4F"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LCFW18-txHLVcekw-Oa"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW18IJUocz55Y8jNg"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "10",
+            "max": "",
+            "id": "-LCFW1kqQdlXmggdeh8b"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW1ngWzhdhSR13P_f"
+        },
+        {
+            "name": "intelligence",
+            "current": 10,
+            "max": "",
+            "id": "-LCFW1nsTywpI_aXi_XO"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW1rOlV8v5ul5YrFz"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW1rX3LozetWlyOqj"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "16",
+            "max": "",
+            "id": "-LCFW2DKyMb5LsbWAsQ8"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LCFW2G6MGHJwr3N0iOF"
+        },
+        {
+            "name": "wisdom",
+            "current": 18,
+            "max": "",
+            "id": "-LCFW2GGPoSCcohj5ow5"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 4,
+            "max": "",
+            "id": "-LCFW2KxAwTfFfzNibiK"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW2L7qF9ggdr_3YXS"
+        },
+        {
+            "name": "charisma_base",
+            "current": "10",
+            "max": "",
+            "id": "-LCFW4dX3c3NQCPRLd0i"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW4gQbz2Uc0qdn1oK"
+        },
+        {
+            "name": "charisma",
+            "current": 10,
+            "max": "",
+            "id": "-LCFW4gYODwhkB2_JkBd"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW4kDTg-e0SvwY0sN"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LCFW4kNLEIyycKscIML"
+        },
+        {
+            "name": "repeating_traits_-LCC8zXWnXUzinvvkxqo_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCFW7r9Pkb7e61ACou7"
+        },
+        {
+            "name": "speed",
+            "current": "45 ft.",
+            "max": "",
+            "id": "-LCFXlkhRQljT0q9o5LU"
+        },
+        {
+            "name": "hp",
+            "current": "58",
+            "max": "58",
+            "id": "-LCF_1_Agmo0CIbTilzQ"
+        },
+        {
+            "name": "background",
+            "current": "Outlander",
+            "max": "",
+            "id": "-LCF_7Avtx9yC5M576Sz"
+        },
+        {
+            "name": "athletics_prof",
+            "current": "(@{pb}*@{athletics_type})",
+            "max": "",
+            "id": "-LCF_CGNXbnGcrVZD9wj"
+        },
+        {
+            "name": "intimidation_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCF_DNkMXUnIOnf9tFt"
+        },
+        {
+            "name": "arcana_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCF_GTtCjis8CEh_IIh"
+        },
+        {
+            "name": "survival_prof",
+            "current": "(@{pb}*@{survival_type})",
+            "max": "",
+            "id": "-LCF_smtHmOr2M6F95ii"
+        },
+        {
+            "name": "repeating_proficiencies_-LCFZvNM1fIYVZwygt5l_name",
+            "current": "Common,Dwarven,Gnomish",
+            "max": "",
+            "id": "-LCFa-igIfCMmhaWnD-3"
+        },
+        {
+            "name": "drop_category",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8mHrRdO0PGOTtCu"
+        },
+        {
+            "name": "drop_name",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8mTJzQrjfw1DVdZ"
+        },
+        {
+            "name": "drop_weight",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8mhR8Rs_qHpp2xP"
+        },
+        {
+            "name": "drop_content",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8mtDtcZ9OJUrFru"
+        },
+        {
+            "name": "drop_itemtype",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8n7HM_h-8z87idS"
+        },
+        {
+            "name": "repeating_inventory_-LCFa8pJMBkOKgZtpFUB_itemname",
+            "current": "Staff",
+            "max": "",
+            "id": "-LCFa8q5D8bbAyMi8Qqu"
+        },
+        {
+            "name": "repeating_inventory_-LCFa8pJMBkOKgZtpFUB_itemweight",
+            "current": "4",
+            "max": "",
+            "id": "-LCFa8qHITBnIllTpOgl"
+        },
+        {
+            "name": "repeating_inventory_-LCFa8pJMBkOKgZtpFUB_itemcontent",
+            "current": "An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.\n\n",
+            "max": "",
+            "id": "-LCFa8qU1jvnVFNC3lsR"
+        },
+        {
+            "name": "repeating_inventory_-LCFa8pJMBkOKgZtpFUB_itemmodifiers",
+            "current": "Item Type: Adventuring Gear",
+            "max": "",
+            "id": "-LCFa8qftkwtwE9MVQvF"
+        },
+        {
+            "name": "drop_properties",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8r94QPvjNjOrHYZ"
+        },
+        {
+            "name": "drop_modifiers",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8rI_39mZvpP0RqM"
+        },
+        {
+            "name": "drop_damage",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8re1_GMQnniMaiB"
+        },
+        {
+            "name": "drop_damagetype",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8rl4GcNdPGoc-7D"
+        },
+        {
+            "name": "drop_range",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8ru2LKj1Tj8RLWM"
+        },
+        {
+            "name": "drop_ac",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8s0MKnnY2iKiqVJ"
+        },
+        {
+            "name": "drop_attack_type",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8s8SX0iH6JIT8X-"
+        },
+        {
+            "name": "drop_damage2",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8sHpur942pJ_Fjj"
+        },
+        {
+            "name": "drop_damagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8sPWAxxJoM5grJQ"
+        },
+        {
+            "name": "drop_spellritualflag",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8sWXAF46x6qYL_g"
+        },
+        {
+            "name": "drop_spellschool",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8scOB7KshfVE0y9"
+        },
+        {
+            "name": "drop_spellcastingtime",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8snlk9RSl0HaUUB"
+        },
+        {
+            "name": "drop_spelltarget",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8suZh7jgOAPSp9X"
+        },
+        {
+            "name": "drop_spellcomp",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8t0bqDewwOGxq5o"
+        },
+        {
+            "name": "drop_spellcomp_materials",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8t8W45WbsmRKQTu"
+        },
+        {
+            "name": "drop_spellconcentrationflag",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8tFeqj58IHlGhK7"
+        },
+        {
+            "name": "drop_spellduration",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8tMbTXihWT9GLHR"
+        },
+        {
+            "name": "drop_spellhealing",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8tbyirAz9xA1TU7"
+        },
+        {
+            "name": "drop_spelldmgmod",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8tuQsqduDzMGMa8"
+        },
+        {
+            "name": "drop_spellsave",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8u0XEY1J1hRZdGA"
+        },
+        {
+            "name": "drop_spellsavesuccess",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8u8AiGjdkU8yXPb"
+        },
+        {
+            "name": "drop_spellhldie",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8uFa8VsWMHTpWcq"
+        },
+        {
+            "name": "drop_spellhldietype",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8uNyxKO3SHPYrra"
+        },
+        {
+            "name": "drop_spellhlbonus",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8uVeuRfVMBX2sVf"
+        },
+        {
+            "name": "drop_spelllevel",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8udpZz2SI--slQ0"
+        },
+        {
+            "name": "drop_spell_damage_progression",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8uknvdQv0xj8Tpl"
+        },
+        {
+            "name": "drop_speed",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8uymGaQvR43MTMT"
+        },
+        {
+            "name": "drop_str",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vAs1iLH6eeJiwO"
+        },
+        {
+            "name": "drop_dex",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vL5UQlUFq2hA5g"
+        },
+        {
+            "name": "drop_con",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vS7yZE3z2iiIUX"
+        },
+        {
+            "name": "drop_int",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vbCZ24qwjCUV6K"
+        },
+        {
+            "name": "drop_wis",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vmN61x8evnGyyd"
+        },
+        {
+            "name": "drop_cha",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8vuSZNp-l_TwBQz"
+        },
+        {
+            "name": "drop_vulnerabilities",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8w0Wruk4lBtKJay"
+        },
+        {
+            "name": "drop_resistances",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8w6MITXUuLXov7-"
+        },
+        {
+            "name": "drop_immunities",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8wGnwzvxddlmb2k"
+        },
+        {
+            "name": "drop_condition_immunities",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8wMx_Ikc4A19FRZ"
+        },
+        {
+            "name": "drop_languages",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8wUZBiGgYhsIU6L"
+        },
+        {
+            "name": "drop_challenge_rating",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8w_knWVj7du5rWE"
+        },
+        {
+            "name": "drop_size",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8wgdWt-GKr-4ynS"
+        },
+        {
+            "name": "drop_type",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8wt0eaKC7QtrRJ7"
+        },
+        {
+            "name": "drop_alignment",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xCEGwMTb2rrLOE"
+        },
+        {
+            "name": "drop_hp",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xKFaZhWZHY0zy8"
+        },
+        {
+            "name": "drop_saving_throws",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xW4bhj9ZlG_hoM"
+        },
+        {
+            "name": "drop_senses",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xdnKDevAZlYDrn"
+        },
+        {
+            "name": "drop_passive_perception",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xqc48feJ8lOCzv"
+        },
+        {
+            "name": "drop_skills",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8xzH_lwFIlsB8LT"
+        },
+        {
+            "name": "drop_token_size",
+            "current": "",
+            "max": "",
+            "id": "-LCFa8y6oyAQsH6AsouN"
+        },
+        {
+            "name": "monster_confirm_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LCFa8yD07e2F9Oq2UEr"
+        },
+        {
+            "name": "repeating_inventory_-LCFaDTGij2MBhapbNZ2_itemname",
+            "current": "Hunting trap",
+            "max": "",
+            "id": "-LCFaDUANpRzlVmrrNb-"
+        },
+        {
+            "name": "repeating_inventory_-LCFaDTGij2MBhapbNZ2_itemweight",
+            "current": "25",
+            "max": "",
+            "id": "-LCFaDUNQYRw7cee-nLj"
+        },
+        {
+            "name": "repeating_inventory_-LCFaDTGij2MBhapbNZ2_itemcontent",
+            "current": "When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.",
+            "max": "",
+            "id": "-LCFaDUY-mDLVN8hnZ-P"
+        },
+        {
+            "name": "repeating_inventory_-LCFaDTGij2MBhapbNZ2_itemmodifiers",
+            "current": "Item Type: Adventuring Gear, Damage: 1d4, Damage Type: Piercing",
+            "max": "",
+            "id": "-LCFaDUkcOYQRlRFXAJm"
+        },
+        {
+            "name": "repeating_inventory_-LCFaGs2n29i6Ep0RJ8E_itemname",
+            "current": "Stag horns",
+            "max": "",
+            "id": "-LCFaI3GlUOadJV2_SEl"
+        },
+        {
+            "name": "repeating_inventory_-LCFaKyLmmdan54-953K_itemname",
+            "current": "Traveler's clothes",
+            "max": "",
+            "id": "-LCFaKyyM4DcxqWegbyj"
+        },
+        {
+            "name": "repeating_inventory_-LCFaKyLmmdan54-953K_itemweight",
+            "current": "4",
+            "max": "",
+            "id": "-LCFaKzBaBmyVGdKzzEf"
+        },
+        {
+            "name": "repeating_inventory_-LCFaKyLmmdan54-953K_itemmodifiers",
+            "current": "Item Type: Adventuring Gear",
+            "max": "",
+            "id": "-LCFaKzOI2Bgavts0EWx"
+        },
+        {
+            "name": "gp",
+            "current": "3",
+            "max": "",
+            "id": "-LCFaNNOd0DvbYJYhkmc"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_source",
+            "current": "Background",
+            "max": "",
+            "id": "-LCFaX61vfcMf_6CSQZP"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_source_type",
+            "current": "Outlander",
+            "max": "",
+            "id": "-LCFaYevtKHRLZbSJ9sQ"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_description",
+            "current": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.",
+            "max": "",
+            "id": "-LCFaZM1qbbs2z-O_EMV"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_name",
+            "current": "Wanderer",
+            "max": "",
+            "id": "-LCFaaNwaG9AzN8-zPSO"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFaaPjKh7N-YeFg7Vr"
+        },
+        {
+            "name": "repeating_traits_-LCFaWXWczjlEW8LCZLF_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCFaadGYhxhgymiIpkn"
+        },
+        {
+            "name": "repeating_proficiencies_-LCFZvNM1fIYVZwygt5l_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFapBsE_jb6siiV6C-"
+        },
+        {
+            "name": "repeating_proficiencies_-LCFapYU9Zkx7fU2bYbt_prof_type",
+            "current": "WEAPON",
+            "max": "",
+            "id": "-LCFaqA3ytXE04QNmua-"
+        },
+        {
+            "name": "repeating_proficiencies_-LCFapYU9Zkx7fU2bYbt_name",
+            "current": "Simple weapons, shortswords",
+            "max": "",
+            "id": "-LCFatDw1aDjvTgojTok"
+        },
+        {
+            "name": "repeating_proficiencies_-LCFapYU9Zkx7fU2bYbt_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFatFhKMWgO-MKmjd0"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_toolname",
+            "current": "Flute",
+            "max": "",
+            "id": "-LCFb6FculHN3sM7OR4x"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_toolattr",
+            "current": "QUERY",
+            "max": "",
+            "id": "-LCFb6KLIEA9sOzz8k6s"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_toolbonus",
+            "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}+0+3",
+            "max": "",
+            "id": "-LCFb6KbKP1QXGrBhHb_"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_toolattr_base",
+            "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}",
+            "max": "",
+            "id": "-LCFb7PoP4ohBPrI9LK-"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFb7rnvg-vdsEliQtt"
+        },
+        {
+            "name": "insight_prof",
+            "current": "0",
+            "max": "",
+            "id": "-LCFbLcoVfDlPA25xDvS"
+        },
+        {
+            "name": "acrobatics_prof",
+            "current": "(@{pb}*@{acrobatics_type})",
+            "max": "",
+            "id": "-LCFbPjY-nOs9F3ONgTC"
+        },
+        {
+            "name": "stealth_prof",
+            "current": "(@{pb}*@{stealth_type})",
+            "max": "",
+            "id": "-LCFbSvDh4DGNRU_6fWn"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_itemname",
+            "current": "Shortsword",
+            "max": "",
+            "id": "-LCFbYQC6l_rHo6uaAHi"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_itemweight",
+            "current": "2",
+            "max": "",
+            "id": "-LCFbYQQh95imNvyM8pc"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_itemproperties",
+            "current": "Finesse, Light",
+            "max": "",
+            "id": "-LCFbYQeYAUFLBJ23tU0"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_itemmodifiers",
+            "current": "Item Type: Melee Weapon, Damage: 1d6, Damage Type: Piercing,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1,Melee Attacks: 1,Melee Damage: 1",
+            "max": "",
+            "id": "-LCFbYQp7L2_N4UuGAIJ"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_hasattack",
+            "current": 1,
+            "max": "",
+            "id": "-LCFbYR28KwpPaSEFZw8"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_itemattackid",
+            "current": "-LCFbYRDJhsKJ0-iL4CK",
+            "max": "",
+            "id": "-LCFbYS2ErCIgql8Xcfz"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFbYTVH-9-kU3uhjgH"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_itemid",
+            "current": "-LCFbYPVqgBzWXzvdZXS",
+            "max": "",
+            "id": "-LCFbYTg_AFWMPG9620p"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkname",
+            "current": "Shortsword",
+            "max": "",
+            "id": "-LCFbYTsqimmc2uRRlzb"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmgbase",
+            "current": "1d6",
+            "max": "",
+            "id": "-LCFbYU2qN4t4jtxfKpe"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmgtype",
+            "current": "Piercing",
+            "max": "",
+            "id": "-LCFbYUCfuRSGQpRqLiZ"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkattr_base",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFbYUNE-gnDcBcYZJu"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmgattr",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFbYUdxEwo8fwz9Kvu"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX]]]}} {{dmg1type=Piercing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFbYVyXNgRsSsFyHCm"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX]]]}} {{dmg1type=Piercing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d6]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFbYWBabov4J0VJQPB"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkbonus",
+            "current": "+8",
+            "max": "",
+            "id": "-LCFbYWLjwwoscwYPFoq"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkdmgtype",
+            "current": "1d6+5 Piercing  ",
+            "max": "",
+            "id": "-LCFbYWWNIymHcMqqAHF"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LCFbYWfrDBvkhajdetJ"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_toolname",
+            "current": "Alchemist’s supplies",
+            "max": "",
+            "id": "-LCFcLKm00awzWS0iCN0"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_toolattr",
+            "current": "QUERY",
+            "max": "",
+            "id": "-LCFcLQSZY1OZnEqCJw0"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_toolbonus",
+            "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}+0+3",
+            "max": "",
+            "id": "-LCFcLQgA7oTMQaMJKNM"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_toolattr_base",
+            "current": "?{Attribute?|Strength,@{strength_mod}|Dexterity,@{dexterity_mod}|Constitution,@{constitution_mod}|Intelligence,@{intelligence_mod}|Wisdom,@{wisdom_mod}|Charisma,@{charisma_mod}}",
+            "max": "",
+            "id": "-LCFcLwWjhDcxmR3NpOJ"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFcMB-HNEXrTd3k7as"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemname",
+            "current": "Dart",
+            "max": "",
+            "id": "-LCFcRsuAXI5akmdRvJQ"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemweight",
+            "current": "0.25",
+            "max": "",
+            "id": "-LCFcRt5eQgiO8Jm61ej"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemproperties",
+            "current": "Finesse, Range, Thrown",
+            "max": "",
+            "id": "-LCFcRtFHzGp6OENk2ue"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemmodifiers",
+            "current": "Item Type: Ranged Weapon, Damage: 1d4, Damage Type: Piercing, Range: 20/60",
+            "max": "",
+            "id": "-LCFcRtTjYbpL-hjv5qb"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_hasattack",
+            "current": 1,
+            "max": "",
+            "id": "-LCFcRtdLIrvBzZp8RcR"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemattackid",
+            "current": "-LCFcRtm-JHVNUawbAr3",
+            "max": "",
+            "id": "-LCFcRumVLVbirL6BAhh"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFcRwOuRHTIFTxQlwZ"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_itemid",
+            "current": "-LCFcRsBbPpyXkY0ZCRv",
+            "max": "",
+            "id": "-LCFcRwZ4_rF1ha-KxHb"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkname",
+            "current": "Dart",
+            "max": "",
+            "id": "-LCFcRwkt-_0TOtemJSK"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_dmgbase",
+            "current": "1d4",
+            "max": "",
+            "id": "-LCFcRwuIT05sEzBwHkt"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_dmgtype",
+            "current": "Piercing",
+            "max": "",
+            "id": "-LCFcRx3JlI6uB-usqQl"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkrange",
+            "current": "20/60",
+            "max": "",
+            "id": "-LCFcRxHMUsYtJ2A1cFE"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkattr_base",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFcRxSa5WeMSGWX-K1"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_dmgattr",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFcRxbfrNhPnTe_4m5"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4 + 5[DEX]]]}} {{dmg1type=Piercing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFcRz5RbnUJGNKCa7Y"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4 + 5[DEX]]]}} {{dmg1type=Piercing }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d4]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFcRzF5OpZQDik8TXM"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkbonus",
+            "current": "+8",
+            "max": "",
+            "id": "-LCFcRzPxYYNMiagBtL3"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkdmgtype",
+            "current": "1d4+5 Piercing  ",
+            "max": "",
+            "id": "-LCFcRzaChNnOzmx0q-3"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LCFcRzu3N93MTsn02mE"
+        },
+        {
+            "name": "repeating_inventory_-LCFcRsBbPpyXkY0ZCRv_itemcount",
+            "current": "10",
+            "max": "",
+            "id": "-LCFcScMQ6zgzBjV4B6O"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_description",
+            "current": "At 1st level, while you are wearing no armor and are not wielding a shield, your AC equals 10 + Dexterity modifier + your Wisdom modifier.",
+            "max": "",
+            "id": "-LCFd_Wms8zfis_M6-aN"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_source_type",
+            "current": "Monk 1",
+            "max": "",
+            "id": "-LCFdaIj2dUgauILq1HT"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCFdaloRMAGb3Kw20jm"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_name",
+            "current": "Unarmored Defense",
+            "max": "",
+            "id": "-LCFddagrww_Lmkf6W6K"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFddcF8bw0fz5jTMxi"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_description",
+            "current": "At 1st level, you gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n-You can use Dexterity instead of Strength for the attacks and damage rolls of your unarmed strikes and monk weapons.\n\n-You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table\n\n-When you use the Attack action with an unarmed strike or a monk weapon, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n",
+            "max": "",
+            "id": "-LCFdkfm130XTIf9SYXz"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_source_type",
+            "current": "Monk 1",
+            "max": "",
+            "id": "-LCFdlqyHNcKNHI0KRnQ"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCFdn2Npd7DNomc04aL"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_name",
+            "current": "Martial Arts",
+            "max": "",
+            "id": "-LCFdqNwdZEo0U_xF1X-"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFe-jtLuFzvjBth4q0"
+        },
+        {
+            "name": "repeating_traits_-LCFdZQCedhGsKZpHvQG_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCFeL4WxtlV4v1F8cCS"
+        },
+        {
+            "name": "repeating_traits_-LCFdjwEr8jfJ7MBHvsw_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCFeLIutlyCbyGfJwg-"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_atkattr_base",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFeNg9xIio0TvhsAHN"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX]]]}} {{dmg1type=Bludgeoning/Magic }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFeNlWi32uWAkoggwr"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX]]]}} {{dmg1type=Bludgeoning/Magic }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d6]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCFeNluLJfPiTxFCdGc"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_atkbonus",
+            "current": "+8",
+            "max": "",
+            "id": "-LCFeNmEc_H2mc82rVNt"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_atkdmgtype",
+            "current": "1d6+5 Bludgeoning/Magic  ",
+            "max": "",
+            "id": "-LCFeNm_xcdA7W4pwJqF"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LCFeNmvR8C6sGroJvh8"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_atkname",
+            "current": "Unarmed Strike",
+            "max": "",
+            "id": "-LCFePtYLAEsZNZxpjjp"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_dmgbase",
+            "current": "1d6",
+            "max": "",
+            "id": "-LCFeQPkt9Z6kr8i6Ktp"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_dmgattr",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCFeQm3rxQGKMA4EoF5"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_dmgtype",
+            "current": "Bludgeoning/Magic",
+            "max": "",
+            "id": "-LCFeSHxFi5S5u_sBYW4"
+        },
+        {
+            "name": "repeating_attack_-LCFeMu93JJjfcJy2eZI_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCFeSfN9bRD80nl-YAT"
+        },
+        {
+            "name": "age",
+            "current": "50",
+            "max": "",
+            "id": "-LCPJrMOqvcogyMn84kk"
+        },
+        {
+            "name": "size",
+            "current": "Medium",
+            "max": "",
+            "id": "-LCPK-sFbmJIEOQZysVx"
+        },
+        {
+            "name": "height",
+            "current": "5'8\"",
+            "max": "",
+            "id": "-LCPK16EPINWCHVOF-d_"
+        },
+        {
+            "name": "weight",
+            "current": "170 lbs.",
+            "max": "",
+            "id": "-LCPK3cgB0x7ufVhDGW1"
+        },
+        {
+            "name": "skin",
+            "current": "White",
+            "max": "",
+            "id": "-LCPK5MMGhAxFTyGlnKs"
+        },
+        {
+            "name": "eyes",
+            "current": "Brown",
+            "max": "",
+            "id": "-LCPK6j_WQrOSLXIbUDq"
+        },
+        {
+            "name": "hair",
+            "current": "Brown",
+            "max": "",
+            "id": "-LCPK7V8vtge_3A4PVPr"
+        },
+        {
+            "name": "deathsave_fail1",
+            "current": "0",
+            "max": "",
+            "id": "-LCPonRd46safAV9y4eK"
+        },
+        {
+            "name": "deathsave_fail2",
+            "current": "0",
+            "max": "",
+            "id": "-LCPonRgyOzVSePNVdzO"
+        },
+        {
+            "name": "deathsave_fail3",
+            "current": "0",
+            "max": "",
+            "id": "-LCPonRjM-hmuohoAxwo"
+        },
+        {
+            "name": "base_level",
+            "current": "8",
+            "max": "",
+            "id": "-LCQG23ZFv7AKALU0XCP"
+        },
+        {
+            "name": "class_resource",
+            "current": "8",
+            "max": "8",
+            "id": "-LCQHwqQKkLqiFgFgfe-"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_source_type",
+            "current": "Monk 2",
+            "max": "",
+            "id": "-LCQI3k7ewTEWcmED7Sl"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQI3yoUMZ_NkyV87Ig"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_name",
+            "current": "Ki",
+            "max": "",
+            "id": "-LCQI9p1Em3d4TKO2YTZ"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_description",
+            "current": "Starting at 2nd level, your access to the mystic energy Ki is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.\n\nYou can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, You learn more ki features as you gain levels in this class,\n\nWhen you spend a ki point. it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.\n\nSome of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:\n\nKi save DC = 8 + your proficiency bonus + your Wisdom modifier",
+            "max": "",
+            "id": "-LCQIBk5xNVHqTQXeYo-"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQIBm-DFhueBF2cyxL"
+        },
+        {
+            "name": "repeating_traits_-LCQI2Zp5fyHSIx1Csu3_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQIJff_8vi1oSWPBJD"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQIMc33XNqecnU-9zu"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_source_type",
+            "current": "Monk 2",
+            "max": "",
+            "id": "-LCQINpTVpvP0Dee7ift"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_name",
+            "current": "Flurry of Blows",
+            "max": "",
+            "id": "-LCQIOvqKKetdpadHFWr"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_description",
+            "current": "Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.",
+            "max": "",
+            "id": "-LCQIS3d72zyWF8g3v2z"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQIS5Msx7AteYT-Dk1"
+        },
+        {
+            "name": "repeating_traits_-LCQIM0eMiAovG3nd3IY_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQISJih-ciZnEJo_hy"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_source_type",
+            "current": "Monk 2",
+            "max": "",
+            "id": "-LCQIVq_i8u_2bcpU4zd"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_description",
+            "current": "You can spend 1 ki point to take the Dodge action as a bonus action on your turn.",
+            "max": "",
+            "id": "-LCQIWOZRmtv0CBkIAzk"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQIWdTZm8nLvNHOx93"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_name",
+            "current": "Patient Defense",
+            "max": "",
+            "id": "-LCQIZf57dSG1Ql3kc3U"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQI_D5_-91zQKXMtV8"
+        },
+        {
+            "name": "repeating_traits_-LCQIUBfHgnHWRQftAZu_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQIaotadVeaQxfGkp6"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_description",
+            "current": "You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.",
+            "max": "",
+            "id": "-LCQIdyKiQAbV4Qsy6lp"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQIeD-Igzun-uAPhQj"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_source_type",
+            "current": "Monk 2",
+            "max": "",
+            "id": "-LCQIfa9_-mOtLUFnj3G"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_name",
+            "current": "Step of the Wind",
+            "max": "",
+            "id": "-LCQIhAUag-ozNSzWIwW"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQIjiFT1iOhUgYFUQk"
+        },
+        {
+            "name": "repeating_traits_-LCQId4MFDx1rxPZYGAX_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQIjyLyCJae2QRxLAK"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_description",
+            "current": "Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.\n\nAt 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.",
+            "max": "",
+            "id": "-LCQIqkb4wgoRbpL2XFo"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQIrLngDNpnFjF8qpg"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_source_type",
+            "current": "Monk 2",
+            "max": "",
+            "id": "-LCQIsO2Y0KdBmCWC-gX"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_name",
+            "current": "Unarmored Movement",
+            "max": "",
+            "id": "-LCQIuewFHwN12iwVFSk"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQIug2J9RFFk04IYux"
+        },
+        {
+            "name": "repeating_traits_-LCQIpkKXBRB9ba8-l6p_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQIvVPhuqHwfcmWcSj"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_description",
+            "current": "Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.\n\nIf you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.",
+            "max": "",
+            "id": "-LCQJ2OY9Y25I55WuP6f"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQJ2hML1_iZZOStetg"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_source_type",
+            "current": "Monk 3",
+            "max": "",
+            "id": "-LCQJ4FIcnWea767mOTE"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_name",
+            "current": "Deflect Missles",
+            "max": "",
+            "id": "-LCQJ5qBjT7J5N7xmCnF"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQJ5rpVW4QVcs3a0eR"
+        },
+        {
+            "name": "repeating_traits_-LCQJ1gSUauqm-lDByzi_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQJ8pyn_2cV1cj5wQj"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCQJBJw0uPfVHzkmyTr"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_source_type",
+            "current": "Monk 3",
+            "max": "",
+            "id": "-LCQJCHBvFimxisP4Msv"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_name",
+            "current": "Open Hand Technique",
+            "max": "",
+            "id": "-LCQJIcfUNJeMwkm13In"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_description",
+            "current": "At 3rd level, whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target: \n\n-It must succeed on a Dexterity saving throw or be knocked prone.\n\n-It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.\n\n-It can't take reactions until the end of your next turn.",
+            "max": "",
+            "id": "-LCQJJNwDqV4fWbpq9xf"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCQJWmF5F8CzGbbNYaE"
+        },
+        {
+            "name": "repeating_traits_-LCQJA9vCpL9WKBrXQWp_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCQJX8NBnjLhV6C9Few"
+        },
+        {
+            "name": "USECOLOR",
+            "current": "YES",
+            "max": "",
+            "id": "-LCftBDsj8rQ15BHM9L8"
+        },
+        {
+            "name": "USEBLOOD",
+            "current": "DEFAULT",
+            "max": "",
+            "id": "-LCftBFGylQbOkfbJiPC"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "",
+            "max": "",
+            "id": "-LCjtXMcOdx4NhMxKi9G"
+        },
+        {
+            "name": "deathsave_succ1",
+            "current": "0",
+            "max": "",
+            "id": "-LCjuo1n-s5zI-JmKGEi"
+        },
+        {
+            "name": "deathsave_succ2",
+            "current": "0",
+            "max": "",
+            "id": "-LCjuo2Slkoi5qa7S-zg"
+        },
+        {
+            "name": "deathsave_succ3",
+            "current": "0",
+            "max": "",
+            "id": "-LCjuo33GClnjvEbA4Dj"
+        },
+        {
+            "name": "repeating_inventory_-LCjw4dcekJTxh2RidKw_itemcount",
+            "current": "10",
+            "max": "",
+            "id": "-LCjw5GoVYCTpcDLKXub"
+        },
+        {
+            "name": "repeating_inventory_-LCjw4dcekJTxh2RidKw_itemname",
+            "current": "Empty glass bottle",
+            "max": "",
+            "id": "-LCjw75N3vDlkjQLTguc"
+        },
+        {
+            "name": "sp",
+            "current": "31",
+            "max": "",
+            "id": "-LCk8lpbKOxZgstBnD2l"
+        },
+        {
+            "name": "cp",
+            "current": "46",
+            "max": "",
+            "id": "-LCk8mGKQYllOD0mJLEd"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_name",
+            "current": "Slow Fall",
+            "max": "",
+            "id": "-LCkA1BWkfBYbd-YN9AS"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_description",
+            "current": "Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.",
+            "max": "",
+            "id": "-LCkA1gmsqZgOhcBoRpd"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LCkA1yGWGRqTdz4UICL"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_source_type",
+            "current": "Monk 4",
+            "max": "",
+            "id": "-LCkA3hMqEMy_RZw4ZUX"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCkA4kMkSkErAjfN0NK"
+        },
+        {
+            "name": "repeating_traits_-LCkA-e3nR86W1UW-Du9_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCkA4zgdVe5IZPH84Jt"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_description",
+            "current": "You are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:\n\n-Increase one ability score of your choice by 1, to a maximum of 20.(I chose +1 Dexterity)\n\n-When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.",
+            "max": "",
+            "id": "-LCkC6TNSRco-NVZLZ_U"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_name",
+            "current": "Human Determination",
+            "max": "",
+            "id": "-LCkC8am5rrcJnnBpvEN"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_source",
+            "current": "Feat",
+            "max": "",
+            "id": "-LCkC9FkBwtgoGk_atgI"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_source_type",
+            "current": "Human 4",
+            "max": "",
+            "id": "-LCkCCQIqrU-m4oCn8_l"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCkCFnrwSKqGzHMyfkM"
+        },
+        {
+            "name": "repeating_traits_-LCkC5OS1Dt62TTMoY5d_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCkCG6SBxYdMXxZF939"
+        },
+        {
+            "name": "custom_ac_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LCt0GEw_z36MEMa8Fr6"
+        },
+        {
+            "name": "custom_ac_part1",
+            "current": "Dexterity",
+            "max": "",
+            "id": "-LCt0JPh9zHhz4pb4vC4"
+        },
+        {
+            "name": "custom_ac_part2",
+            "current": "Wisdom",
+            "max": "",
+            "id": "-LCt0OZ-zlWRvZV_JL_2"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_description",
+            "current": "While not wielding a weapon in your offhand, you may attempt to blind an enemy with a bonus action attack. Make a dexterity attack roll with which you are proficient. On a hit, it does 0 damage and blinds the enemy until the end of your turn. You may use this ability a number of times equal to half your level rounded up, and a number of uses equal to a third of your level rounded down restore on a short rest.",
+            "max": "",
+            "id": "-LCy4Do3rP5HqDpwzVV3"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_source",
+            "current": "Other",
+            "max": "",
+            "id": "-LCy4ERqk4ahXGdnXMYZ"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_source_type",
+            "current": "Eternal Shadows Faction",
+            "max": "",
+            "id": "-LCy4GdeR7y9wDO_6SI2"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_name",
+            "current": "Pocket Sand",
+            "max": "",
+            "id": "-LCy4JzC-UARzUtv6cBY"
+        },
+        {
+            "name": "other_resource_name",
+            "current": "Pocket Sand",
+            "max": "",
+            "id": "-LCy4QChvdHljBo_2vBv"
+        },
+        {
+            "name": "other_resource",
+            "current": "3",
+            "max": "3",
+            "id": "-LCy4QPqhMJ4bJm5V8t5"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_atkattr_base",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LCy4YyrEl8b-aNIch6D"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[0]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCy4ZnaZ-29SuSyKInR"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[0]]}} {{dmg1type=}} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[0]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LCy4Zo-u0wgvKSU_szu"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_atkbonus",
+            "current": "+8",
+            "max": "",
+            "id": "-LCy4ZojRS2igDHtXYq2"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_atkdmgtype",
+            "current": "  ",
+            "max": "",
+            "id": "-LCy4ZpGDzbevpUcmCE7"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[PROF]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LCy4ZphtRra5RAK4ZUH"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_atkname",
+            "current": "Pocket Sand",
+            "max": "",
+            "id": "-LCy4bpgiRToW47SJ6Yi"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCy4br0M5Vne2YbqsAT"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_dmgbase",
+            "current": "0",
+            "max": "",
+            "id": "-LCy4dFhA7jD_In_mHxN"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LCy4jc6KgtLY8h759T2"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_atk_desc",
+            "current": "Blinds the enemy until the end of my turn.",
+            "max": "",
+            "id": "-LCy4pAwNPyKtilWESEl"
+        },
+        {
+            "name": "repeating_traits_-LCy4CqImjVuF3AmuCCq_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LCy4ra85ziIkk2ZyDaE"
+        },
+        {
+            "name": "repeating_inventory_-LCy4yzn3zutTRlS1Rw5_itemname",
+            "current": "Wooden Badge(Eternal Shadows)",
+            "max": "",
+            "id": "-LCy52I1LQys_zdDWNDn"
+        },
+        {
+            "name": "repeating_inventory_-LCyBBzHJkpHtvau8QbG_itemname",
+            "current": "Goggles of Night",
+            "max": "",
+            "id": "-LCyBBzPxTKmxsIHOJvo"
+        },
+        {
+            "name": "repeating_inventory_-LCyBBzHJkpHtvau8QbG_itemcontent",
+            "current": "While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision. wearing the goggles increases its range by 60 feet.\n\n",
+            "max": "",
+            "id": "-LCyBBzRZz0gK2DYbEDW"
+        },
+        {
+            "name": "repeating_inventory_-LCyBBzHJkpHtvau8QbG_itemmodifiers",
+            "current": "Item Type: Wondrous Item",
+            "max": "",
+            "id": "-LCyBBzTNChQkbB3P7CQ"
+        },
+        {
+            "name": "drop_actions",
+            "current": "",
+            "max": "",
+            "id": "-LCyBBzYomrQf5Hukszu"
+        },
+        {
+            "name": "drop_legendary_actions",
+            "current": "",
+            "max": "",
+            "id": "-LCyBBzZ9OBdpI4czFLk"
+        },
+        {
+            "name": "drop_legendary_actions_desc",
+            "current": "",
+            "max": "",
+            "id": "-LCyBBz_rd9sb5Rlxkwl"
+        },
+        {
+            "name": "drop_reactions",
+            "current": "",
+            "max": "",
+            "id": "-LCyBBzadSgHv-zj_cZ9"
+        },
+        {
+            "name": "drop_traits",
+            "current": "",
+            "max": "",
+            "id": "-LCyBBzadSgHv-zj_cZA"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_name",
+            "current": "Extra Attack",
+            "max": "",
+            "id": "-LDJn4EBtV2FY3SRR2n0"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LDJn4QP0WqN6BSnFLzV"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_source_type",
+            "current": "Monk 5",
+            "max": "",
+            "id": "-LDJn6pI1bYwllhAEjks"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_description",
+            "current": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+            "max": "",
+            "id": "-LDJn7FF9-SL5bG5VASk"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LDJn7Rua-y4JrbbHI3c"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_description",
+            "current": "Starting at 5th level, when you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
+            "max": "",
+            "id": "-LDJnCGbn27ZW7WJnfeN"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_source_type",
+            "current": "Monk 5",
+            "max": "",
+            "id": "-LDJnCxKcVbhgRkJd81O"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LDJnDJDkA_v0IIIvjTN"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_name",
+            "current": "Stunning Strike",
+            "max": "",
+            "id": "-LDJnEv_A7NiCpyFOk2q"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LDJnExB_2vnwzMF8ACM"
+        },
+        {
+            "name": "repeating_traits_-LDJn2d1YFaTyRzVx1sN_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LDJnF8O6IUlSZrSTW3m"
+        },
+        {
+            "name": "repeating_traits_-LDJnBTd0uZjCUvFmy7a_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LDJnFIdn0uYk2T9ixV1"
+        },
+        {
+            "name": "repeating_inventory_-LDJvdx7xaaeKVgfNqT8_itemcount",
+            "current": "0",
+            "max": "",
+            "id": "-LDJveUXCqdU_RvtrWff"
+        },
+        {
+            "name": "repeating_inventory_-LDJvdx7xaaeKVgfNqT8_itemname",
+            "current": "Potion of Healing",
+            "max": "",
+            "id": "-LDJvg4aPHJwOM0seBuK"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkcritrange",
+            "current": "20",
+            "max": "",
+            "id": "-LDJxScMoOaX8T1VVsAm"
+        },
+        {
+            "name": "spell_attack_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LDosGShg1U1k7P7bxG3"
+        },
+        {
+            "name": "repeating_inventory_-LCyBBzHJkpHtvau8QbG_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LEwLI3F0gmqmq-PwH7D"
+        },
+        {
+            "name": "hp_temp",
+            "current": "0",
+            "max": "",
+            "id": "-LEwcOhXd6-zt0up7IS9"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_description",
+            "current": "Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.",
+            "max": "",
+            "id": "-LExFsoZZFvEZvoUDnwv"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_source_type",
+            "current": "Monk 6",
+            "max": "",
+            "id": "-LExFtxIgedYqgJRiHZS"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LExFuChQMM3YxT2mEWR"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_name",
+            "current": "Ki-Empowered Strikes",
+            "max": "",
+            "id": "-LExFwknzR3C_1B1c2B4"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LExG65WluvsIIM4pZw_"
+        },
+        {
+            "name": "repeating_traits_-LExFrx8xdgyMUqseRx3_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LExG6QyQpJuVik9VeLj"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_description",
+            "current": "At 6th level, as an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.",
+            "max": "",
+            "id": "-LExHLKFCcq3-HPznUJ8"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_source_type",
+            "current": "Monk 6",
+            "max": "",
+            "id": "-LExHMTEBMt5Yl066UWg"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LExHMprEOJ_wNIDyyuK"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_name",
+            "current": "Wholeness of Body",
+            "max": "",
+            "id": "-LExHPH7CCGGKixKA7tb"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LExHPIZsVM1HAyWtlvP"
+        },
+        {
+            "name": "repeating_traits_-LExHKL51qVyQuMGYAHD_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LExHPemAUs2F9v7-K1v"
+        },
+        {
+            "name": "repeating_inventory_-LFutrC0draEZbK7ebH2_itemname",
+            "current": "Ioun Stone, Agility",
+            "max": "",
+            "id": "-LFutrDG0ljJdvgmAvZ4"
+        },
+        {
+            "name": "repeating_inventory_-LFutrC0draEZbK7ebH2_itemcontent",
+            "current": "An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.\n\nWhen you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.\n\nA stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.\n\nYour Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.\n\n",
+            "max": "",
+            "id": "-LFutrDS5fK4onyJupCd"
+        },
+        {
+            "name": "repeating_inventory_-LFutrC0draEZbK7ebH2_itemmodifiers",
+            "current": "Item Type: Wondrous Item",
+            "max": "",
+            "id": "-LFutrDdnHKJbRjjsqZz"
+        },
+        {
+            "name": "dexterity_bonus",
+            "current": "2",
+            "max": "",
+            "id": "-LFuu-Syk0G0H2aM0aWZ"
+        },
+        {
+            "name": "repeating_inventory_-LFutrC0draEZbK7ebH2_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFuuZWQ6IPX-CJnfqZL"
+        },
+        {
+            "name": "repeating_inventory_-LCy4yzn3zutTRlS1Rw5_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFuvdW6MTmCJ29locfG"
+        },
+        {
+            "name": "repeating_inventory_-LFvJmCNZ59Tkv5x7Ok1_itemname",
+            "current": "Ioun Stone, Protection",
+            "max": "",
+            "id": "-LFvJmDQT5ULQy-XtkUg"
+        },
+        {
+            "name": "repeating_inventory_-LFvJmCNZ59Tkv5x7Ok1_itemcontent",
+            "current": "An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.\n\nWhen you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.\n\nA stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.\n\n**Absorption (Very Rare).** While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.\n\nOnce the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can’t cancel it.\n\n**Agility (Very Rare).** Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.\n\n**Awareness (Rare).** You can’t be surprised while this dark blue rhomboid orbits your head.\n\n**Fortitude (Very Rare).** Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.\n\n**Greater Absorption (Legendary).** While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.\n\nOnce the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can’t cancel it.\n\n**Insight (Very Rare).** Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.\n\n**Intellect (Very Rare).** Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.\n\n**Leadership (Very Rare).** Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.\n\n**Mastery (Legendary).** Your proficiency bonus increases by 1 while this pale green prism orbits your head.\n\n**Protection (Rare).** You gain a +1 bonus to AC while this dusty rose prism orbits your head.\n\n**Regeneration (Legendary).** You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point. \n\n**Reserve (Rare).** This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4 − 1 levels of stored spells chosen by the GM.\n\nAny creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can’t hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.\n\nWhile this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.\n\n**Strength (Very Rare).** Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.\n\n**Sustenance (Rare).** You don’t need to eat or drink while this clear spindle orbits your head.",
+            "max": "",
+            "id": "-LFvJmDcD4wcuOLA6J6X"
+        },
+        {
+            "name": "repeating_inventory_-LFvJmCNZ59Tkv5x7Ok1_itemmodifiers",
+            "current": "Item Type: Wondrous",
+            "max": "",
+            "id": "-LFvJmDtHvNHczdD53wV"
+        },
+        {
+            "name": "repeating_inventory_-LFvJmCNZ59Tkv5x7Ok1_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LFvKJkD5lXzlZ98zVG5"
+        },
+        {
+            "name": "version",
+            "current": "2.7",
+            "max": "",
+            "id": "-LFzanA0RvyxXtYLmvmx"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LFzanAF0H0d3LhUqDmG"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-LFzanASqtd9wCjX3vkH"
+        },
+        {
+            "name": "class_display",
+            "current": "Monk 8",
+            "max": "",
+            "id": "-LFzanDGsz4-_twaBGii"
+        },
+        {
+            "name": "race_display",
+            "current": "Human",
+            "max": "",
+            "id": "-LFzanDRhPk6dg06zmcg"
+        },
+        {
+            "name": "repeating_tool_-LCFb4pqXSk6IdoqHIdv_toolbonus_display",
+            "current": "?",
+            "max": "",
+            "id": "-LFzanDg_AtVOav-iYSk"
+        },
+        {
+            "name": "repeating_tool_-LCFcIsFAgY3WJdEotIP_toolbonus_display",
+            "current": "?",
+            "max": "",
+            "id": "-LFzanDus5BbL7tJRyOn"
+        },
+        {
+            "name": "repeating_resource_-LG3ZAgTbYwn-ORlCyxu_resource_left_name",
+            "current": "Exhaustion",
+            "max": "",
+            "id": "-LG3_CpVwCqjCz_0CJSW"
+        },
+        {
+            "name": "repeating_resource_-LG3ZAgTbYwn-ORlCyxu_resource_right_name",
+            "current": "DTH",
+            "max": "",
+            "id": "-LG3_DUZeEIECPLNTbdT"
+        },
+        {
+            "name": "repeating_resource_-LG3ZAgTbYwn-ORlCyxu_resource_right",
+            "current": "0",
+            "max": "",
+            "id": "-LG3_EG5bYJBbYTB40AY"
+        },
+        {
+            "name": "repeating_resource_-LG3ZAgTbYwn-ORlCyxu_resource_left",
+            "current": "0",
+            "max": "6",
+            "id": "-LG3_EYJEMQuTtxEwSuT"
+        },
+        {
+            "name": "repeating_inventory_-LG3iY1ngimGXlV5CMZo_itemname",
+            "current": "Healing Elixer",
+            "max": "",
+            "id": "-LG3i_SqIr6wiPBw4hDd"
+        },
+        {
+            "name": "repeating_inventory_-LG3pmS1gFDvWrahX81D_itemname",
+            "current": "Antibiotic Decoction",
+            "max": "",
+            "id": "-LG3polHEPxh6293fmUq"
+        },
+        {
+            "name": "repeating_inventory_-LG3pmS1gFDvWrahX81D_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LG3pu7KeX-x0jcHAiKp"
+        },
+        {
+            "name": "repeating_inventory_-LG3pmS1gFDvWrahX81D_itemcontent",
+            "current": "A miracle of medicine that tastes quite bitter, but works wonders. The drinker of this Decoction is immediately cured of any disease and poison.",
+            "max": "",
+            "id": "-LG3pwGIB2WJN_urseaY"
+        },
+        {
+            "name": "repeating_inventory_-LG3svnMOwdH7spZucoi_itemname",
+            "current": "Sovereign Glue",
+            "max": "",
+            "id": "-LG3svoqQD-rfbkRa7gD"
+        },
+        {
+            "name": "repeating_inventory_-LG3svnMOwdH7spZucoi_itemcontent",
+            "current": "This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with oil of slipperiness. When found, a container contains 1d6 + 1 ounces.\n\nOne ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of universal solvent or oil of etherealness, or with a wish spell.\n\n",
+            "max": "",
+            "id": "-LG3svp5FfCwRAKZqHaL"
+        },
+        {
+            "name": "repeating_inventory_-LG3svnMOwdH7spZucoi_itemmodifiers",
+            "current": "Item Type: Adventuring Gear",
+            "max": "",
+            "id": "-LG3svpLEaERrREcmpYp"
+        },
+        {
+            "name": "drop_alt_damage",
+            "current": "",
+            "max": "",
+            "id": "-LG3svq65HNVLQ32o6wO"
+        },
+        {
+            "name": "drop_alt_damagetype",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqD9XkkrnOFcOL-"
+        },
+        {
+            "name": "drop_alt_damage2",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqKaDeR_KDk2vU_"
+        },
+        {
+            "name": "drop_alt_damagetype2",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqRdUEfsr9aJnF6"
+        },
+        {
+            "name": "drop_armor_prof",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqcu0tCTFqJ_5Lj"
+        },
+        {
+            "name": "drop_hit_die",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqinShKoCrEoZGF"
+        },
+        {
+            "name": "drop_weapon_prof",
+            "current": "",
+            "max": "",
+            "id": "-LG3svqpuDF3eHqTUZg6"
+        },
+        {
+            "name": "drop_spellcasting_ability",
+            "current": "",
+            "max": "",
+            "id": "-LG3svs3fzPd9In5J3_G"
+        },
+        {
+            "name": "drop_class_saving_throws",
+            "current": "",
+            "max": "",
+            "id": "-LG3svsAM8uhTC5FVo_C"
+        },
+        {
+            "name": "drop_language_prof",
+            "current": "",
+            "max": "",
+            "id": "-LG3svsLjK85vJTQE1xS"
+        },
+        {
+            "name": "drop_tool_prof",
+            "current": "",
+            "max": "",
+            "id": "-LG3svsV_gPcFu-Duo40"
+        },
+        {
+            "name": "drop_hp_per_level",
+            "current": "",
+            "max": "",
+            "id": "-LG3svscsRW48HkSuLWP"
+        },
+        {
+            "name": "drop_class_spells",
+            "current": "",
+            "max": "",
+            "id": "-LG3svsnVZ7tV2kZ0LeR"
+        },
+        {
+            "name": "drop_global_damage",
+            "current": "",
+            "max": "",
+            "id": "-LG3svswewZi2X-OWXKR"
+        },
+        {
+            "name": "drop_feature_name",
+            "current": "",
+            "max": "",
+            "id": "-LG3svt2CojYTDiaMitx"
+        },
+        {
+            "name": "drop_feature_description",
+            "current": "",
+            "max": "",
+            "id": "-LG3svt8k63kVnmf7cNe"
+        },
+        {
+            "name": "drop_spell_ability",
+            "current": "",
+            "max": "",
+            "id": "-LG3svtMqDE3gNOUB5Nm"
+        },
+        {
+            "name": "drop_toolbonus_base",
+            "current": "",
+            "max": "",
+            "id": "-LG3svtULV4BBJoTlZvs"
+        },
+        {
+            "name": "drop_itemcount",
+            "current": "",
+            "max": "",
+            "id": "-LG3svtcmNuWxVNbqtUr"
+        },
+        {
+            "name": "drop_skill_proficiency",
+            "current": "",
+            "max": "",
+            "id": "-LG3svtmQQnpS51f28vz"
+        },
+        {
+            "name": "drop_parent",
+            "current": "",
+            "max": "",
+            "id": "-LG3svtulRDcbtigvFFp"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_description",
+            "current": "At 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+            "max": "",
+            "id": "-LG3tOyEV6TTKKu_SDlj"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_name",
+            "current": "Evasion",
+            "max": "",
+            "id": "-LG3tPzTeaM0fWzd2_5g"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LG3tQCmqz_48Jg5P0Jl"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_source_type",
+            "current": "Monk 7",
+            "max": "",
+            "id": "-LG3tRcvCYb75K3jXmtG"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LG3tRrCjoqWZckYAaPS"
+        },
+        {
+            "name": "repeating_traits_-LG3tO90LNYhZryZ6vSS_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LG3tS8_mEfG3t0-I-sE"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_description",
+            "current": "Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.",
+            "max": "",
+            "id": "-LG3tVVcKHcBQCPjWDwH"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_source",
+            "current": "Class",
+            "max": "",
+            "id": "-LG3tVgrLNX4lO0xnTyq"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_name",
+            "current": "Stillness of Mind",
+            "max": "",
+            "id": "-LG3tZ8Vju6ua4E9NGDk"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_source_type",
+            "current": "Monk 7",
+            "max": "",
+            "id": "-LG3t_IivMMXvXoQ6ekF"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LG3t_Jily_f8lMC3dX4"
+        },
+        {
+            "name": "repeating_inventory_-LG3svnMOwdH7spZucoi_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LG3upfu-B_g3n5o0YT9"
+        },
+        {
+            "name": "repeating_traits_-LG3tUVrOYmqQf7XR3P2_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LG3vB2glLNDBJynqO1h"
+        },
+        {
+            "name": "repeating_inventory_-LG6iJqUgKHN8dW1z8R3_itemname",
+            "current": "Cold Weather Gear",
+            "max": "",
+            "id": "-LG6iMAl5P3pd82ITRv_"
+        },
+        {
+            "name": "repeating_inventory_-LG6iJqUgKHN8dW1z8R3_itemweight",
+            "current": "7",
+            "max": "",
+            "id": "-LG6iO-wwUbnWltQB5ez"
+        },
+        {
+            "name": "repeating_attack_-LCFcRtm-JHVNUawbAr3_atkmagic",
+            "current": "",
+            "max": "",
+            "id": "-LG74rBVbh4l4BpHlfHD"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_itemname",
+            "current": "Shortsword of Sharpness +1",
+            "max": "",
+            "id": "-LG7LkoXJ9p22BDTK7_z"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_itemcontent",
+            "current": "Weapon (any sword that deals slashing damage), very  rare (requires attunement) \n\n\n\n When you attack an object with this magic sword  and hit, maximize your weapon damage dice against  the target.  \n   When you attack a creature with this weapon and  roll a 20 on the attack roll, that target takes an extra  4d6 slashing damage. Then roll another d20. If you  roll a 20, you lop off one of the target’s limbs, with  the effect of such loss determined by the GM. If the  creature has no limb to sever, you lop off a portion of  its body instead.  \n   In addition, you can speak the sword’s command  word to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet.  Speaking the command word again or sheathing the  sword puts out the light.  ",
+            "max": "",
+            "id": "-LG7Lko_mamtXhotj4fg"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_itemmodifiers",
+            "current": "Item Type: Sword",
+            "max": "",
+            "id": "-LG7Lkobczm5vpEbz-pQ"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_hasattack",
+            "current": "0",
+            "max": "",
+            "id": "-LG7LmF1T51NUQ-6-A_B"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_itemattackid",
+            "current": "-LG7M4u82wIVosMsML4H",
+            "max": "",
+            "id": "-LG7LmGtggjpw5FYoxjp"
+        },
+        {
+            "name": "repeating_inventory_-LG7LkoVZUnijZwafxwf_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LG7M4NN5QcDOWbt9Ipd"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkmagic",
+            "current": "",
+            "max": "",
+            "id": "-LG7MBPI9I6DreQe6SjZ"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-LG7MD9A2ONvGMHVXXcH"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmg2mod",
+            "current": "",
+            "max": "",
+            "id": "-LG7MFFQTggKNR0TqIaF"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-LG7MLfyJO6S6NB3QYBV"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_atkname",
+            "current": "Shortsword of Sharpness +1",
+            "max": "",
+            "id": "-LG7MaCaUBYGiaqtzItp"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_atkattr_base",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LG7MaCcdtnZKSaZy3ef"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmgattr",
+            "current": "@{dexterity_mod}",
+            "max": "",
+            "id": "-LG7MaCe3vpXB7bqOsMQ"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_atkmagic",
+            "current": "1",
+            "max": "",
+            "id": "-LG7MaChM3n-HObWQA7B"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX] + 1[MAGIC]]]}} {{dmg1type=Slashing }} @{dmg2flag} {{dmg2=[[0 + 14[MOD]]]}} {{dmg2type=Bonus (Nat 20) }} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LG7MaCoGNdkRO383YS5"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d6 + 5[DEX] + 1[MAGIC]]]}} {{dmg1type=Slashing }} @{dmg2flag} {{dmg2=[[0 + 14[MOD]]]}} {{dmg2type=Bonus (Nat 20) }} {{crit1=[[1d6]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-LG7MaCrUMIe_9FZFR2F"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_atkbonus",
+            "current": "+9",
+            "max": "",
+            "id": "-LG7MaCtSraA_h28jsJv"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_atkdmgtype",
+            "current": "1d6+5 Slashing + 14 Bonus (Nat 20) + 1 Magic Bonus ",
+            "max": "",
+            "id": "-LG7MaCvSAgoMLuqC-gA"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 5[DEX] + 3[PROF] + 1[MAGIC]]]}} @{rtype}cs>@{atkcritrange} + 5[DEX] + 3[PROF] + 1[MAGIC]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-LG7MaCxnZETfg7BN3N9"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmgbase",
+            "current": "1d6",
+            "max": "",
+            "id": "-LG7MyveWc1aryC2g4kw"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmgtype",
+            "current": "Slashing",
+            "max": "",
+            "id": "-LG7N14M5yLH_chxyjrj"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmg2flag",
+            "current": "{{damage=1}} {{dmg2flag=1}}",
+            "max": "",
+            "id": "-LG7N1P9sYilT1Ju3IHz"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmg2mod",
+            "current": "14",
+            "max": "",
+            "id": "-LG7N25U47h8FOmucNzk"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_dmg2type",
+            "current": "Bonus (Nat 20)",
+            "max": "",
+            "id": "-LG7N4iulKV35AtDT_qP"
+        },
+        {
+            "name": "repeating_attack_-LG7M4u82wIVosMsML4H_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LG7N6NApFnu_N_N0FS_"
+        },
+        {
+            "name": "repeating_attack_-LCy4YLpIDrxbZ7orb8r_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-LG7N7XhsupvfdpAbpvU"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LG7OersrPKYQV5sISjW"
+        },
+        {
+            "name": "repeating_inventory_-LCFbYPVqgBzWXzvdZXS_equipped",
+            "current": "0",
+            "max": "",
+            "id": "-LG7OfOz9SK_E91xlvP7"
+        },
+        {
+            "name": "repeating_attack_-LCFbYRDJhsKJ0-iL4CK_atkflag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-LG7QDcmlgxaeTSkaFwd"
+        },
+        {
+            "name": "repeating_inventory_-LG6iJqUgKHN8dW1z8R3_inventorysubflag",
+            "current": "0",
+            "max": "",
+            "id": "-LGH6whLSuxe9q0JhaqP"
+        },
+        {
+            "name": "repeating_inventory_-LG6iJqUgKHN8dW1z8R3_equipped",
+            "current": "0",
+            "max": "",
+            "id": "-LGH6xD2_tTjvAJoyqHm"
+        },
+        {
+            "name": "globalacmod",
+            "current": "1",
+            "max": "",
+            "id": "-LGLLQI7an6MZggQzEmy"
+        },
+        {
+            "name": "pp",
+            "current": "430",
+            "max": "",
+            "id": "-LGLLxwVmkWY64hl1dQo"
+        },
+        {
+            "name": "drop_resources",
+            "current": "",
+            "max": "",
+            "id": "-LGcZJis8s-iIcGnS-lD"
+        },
+        {
+            "name": "repeating_inventory_-LGcZSfZkOv-81eb1CVf_itemname",
+            "current": "Ioun Stone, Insight",
+            "max": "",
+            "id": "-LGcZSfa824J8St5vhTF"
+        },
+        {
+            "name": "repeating_inventory_-LGcZSfZkOv-81eb1CVf_itemcontent",
+            "current": "An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.\n\nWhen you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.\n\nA stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.\n\nYour Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.\n\n",
+            "max": "",
+            "id": "-LGcZSfekO_IkKip5M2G"
+        },
+        {
+            "name": "repeating_inventory_-LGcZSfZkOv-81eb1CVf_itemmodifiers",
+            "current": "Item Type: Wondrous Item",
+            "max": "",
+            "id": "-LGcZSfh-yCQ7q51sxIg"
+        },
+        {
+            "name": "wisdom_bonus",
+            "current": "2",
+            "max": "",
+            "id": "-LGcZa6UTGBB9Ku4t-Dl"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_source_type",
+            "current": "ASI level 8",
+            "max": "",
+            "id": "-LGdi_N0yT8gdZmcaqTs"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_source",
+            "current": "Feat",
+            "max": "",
+            "id": "-LGdi_pwalpWb_lRGUKA"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_name",
+            "current": "Resilient",
+            "max": "",
+            "id": "-LGdidlwWHCC5tZwfWLt"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_description",
+            "current": "Choose one ability score. You gain the following benefits:\n\n-Increase the chosen ability score by 1, to a maximum of 20.(+1 WIS)\n\n-You gain proficiency in saving throws using the chosen ability.",
+            "max": "",
+            "id": "-LGdijXXeXjZhCRhOmUF"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LGdijpZgs6VAFHlLeq3"
+        },
+        {
+            "name": "repeating_traits_-LGdiYtedoDUDsTRdSIf_display_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LGdik8n0i980EQQ1REZ"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecVvKBcWMLcbYIt2"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecW2K_6rBSjSFinx"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecW6LakrEpLvLIJu"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecW9dGrw8pcqe-gU"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecWCjrxOPlU5mTN6"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LI3ecWDdx_0780qMC1y"
+        },
+        {
+            "name": "repeating_acmod_-LOFjz52NVZP9Dc6m1dO_global_ac_val",
+            "current": 1,
+            "max": "",
+            "id": "-LOFjz5F6sXhvj_ujvjO"
+        },
+        {
+            "name": "repeating_acmod_-LOFjz52NVZP9Dc6m1dO_global_ac_name",
+            "current": "GLOBAL ARMOR CLASS MODIFIER",
+            "max": "",
+            "id": "-LOFjz5Nx91NmFP_wY7e"
+        },
+        {
+            "name": "repeating_acmod_-LOFjz52NVZP9Dc6m1dO_global_ac_active_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LOFjz5TKeZsH3vm5phL"
+        },
+        {
+            "name": "repeating_acmod_-LOFjz52NVZP9Dc6m1dO_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LOFjz5Y_drNtZhLltcv"
+        },
+        {
+            "name": "global_ac_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LOFjz5cCU5nZtzg0-Os"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LOFjz6H4r_Neoch0iQZ"
+        }
+    ],
+    "abilities": []
+}
